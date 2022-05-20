@@ -1,0 +1,852 @@
+
+2022年 5月16日 星期一 15时31分28秒 CST
+ - os version
+Darwin Metasekoia-nn.local 18.7.0 Darwin Kernel Version 18.7.0: Tue Jun 22 19:37:08 PDT 2021; root:xnu-4903.278.70~1/RELEASE_X86_64 x86_64
+ - hardware information
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Pro
+      Model Identifier: MacBookPro11,4
+      Processor Name: Intel Core i7
+      Processor Speed: 2.2 GHz
+      Number of Processors: 1
+      Total Number of Cores: 4
+      L2 Cache (per Core): 256 KB
+      L3 Cache: 6 MB
+      Hyper-Threading Technology: Enabled
+      Memory: 16 GB
+      Boot ROM Version: 427.140.8.0.0
+      SMC Version (system): 2.29f24
+      Serial Number (system): C02RK1VBG8WN
+      Hardware UUID: E47D23CE-BFA7-5D1A-ADE6-A062CE800108
+
+ - uptime
+18:44  up 5 days, 21:44, 2 users, load averages: 1.70 1.65 1.56
+ - services information
+PID	Status	Label
+-	0	com.apple.storedownloadd.daemon
+303	0	com.apple.CoreAuthentication.daemon
+167	0	com.apple.coreservicesd
+-	0	com.apple.touchbarserver
+-	0	com.apple.avbdeviced
+260	0	com.apple.cvmsServ
+-	0	com.apple.FontWorker
+-	0	com.apple.applessdstatistics
+-	0	com.apple.hdiejectd
+-	0	com.apple.corestorage.corestoraged
+-	0	com.apple.storagekitd
+-	0	com.apple.EmbeddedOSInstallService
+-	0	com.apple.wifid
+-	0	com.apple.storereceiptinstaller
+1045	0	com.apple.mobileactivationd
+-	0	com.apple.seld
+-	0	com.apple.emond
+-	0	com.apple.ProcessPanicReport
+520	0	com.apple.iconservices.iconservicesagent
+-	0	com.apple.logkextloadsd
+-	0	com.apple.bluetoothReporter
+60	0	com.apple.syslogd
+230	0	com.apple.WindowServer
+-	0	com.apple.DesktopServicesHelper.A46C49C6-6D6E-49E9-9EE1-59E93254A456
+-	0	com.apple.NetworkSharing
+-	0	com.apple.afpfs_checkafp
+-	0	com.apple.DesktopServicesHelper.73D42AA5-4951-46A9-A2F3-D1E48B30B684
+-	0	com.trendmicro.TrendCleanerPro.HelperTool
+100	0	com.apple.securityd
+-	0	com.apple.auditd
+-	0	com.apple.nesessionmanager
+-	0	com.apple.var-db-dslocal-backup
+-	0	com.apple.cfnetwork.cfnetworkagent
+29263	0	com.apple.ocspd
+195	0	com.apple.symptomsd
+105	0	com.apple.autofsd
+-	0	com.apple.DesktopServicesHelper.E3F2C860-83C0-4638-AA12-97778FD7D44D
+61	0	com.apple.UserEventAgent-System
+-	0	com.apple.Kerberos.kadmind
+479	0	com.apple.coresymbolicationd
+-	0	com.apple.PerfPowerServicesExtended
+497	0	com.apple.suhelperd
+-	0	com.apple.commerced
+-	0	com.apple.RFBEventHelper
+116	0	com.sangfor.EasyMonitor
+-	0	com.apple.racoon
+-	0	com.apple.bosreporter
+-	0	com.apple.metadata.mds.scan
+123	0	com.apple.AirPlayXPCHelper
+68	0	com.apple.mediaremoted
+-	0	com.apple.mbusertrampoline
+-	0	com.apple.RemoteDesktop.PrivilegeProxy
+-	0	com.apple.DesktopServicesHelper.6C81D95F-CE89-4234-ACCA-DF504D964637
+574	0	com.apple.sysdiagnose
+571	0	com.apple.installd
+572	0	com.apple.system_installd
+-	0	com.apple.dvdplayback.setregion
+-	0	org.postfix.master
+-	0	com.apple.SafeEjectGPUStartupDaemon
+175	0	com.apple.nehelper
+-	0	com.apple.boswatcher
+78	0	com.apple.logd
+-	0	com.apple.iBooksX-SecureUserDefaults
+262	0	com.apple.tccd.system
+-	0	com.apple.accessoryd
+-	0	com.apple.appleseed.fbahelperd
+-	0	com.apple.IFCStart
+-	0	com.apple.mdmclient.daemon
+182	0	com.apple.ctkd
+3145	0	com.apple.softwareupdate_download_service
+-	0	com.apple.xpc.roleaccountd
+199	0	com.apple.nsurlsessiond_privileged
+212	0	com.apple.awdd
+170	0	com.apple.contextstored
+213	0	com.apple.mDNSResponderHelper.reloaded
+-	0	com.apple.diagnosticextensions.osx.wifi.helper
+-	0	com.apple.periodic-monthly
+-	0	com.apple.findmymacmessenger
+-	0	com.apple.CSCSupportd
+259	0	com.apple.secinitd
+-	0	com.apple.kuncd
+-	0	com.apple.corecaptured
+-	0	com.apple.scsid
+-	0	com.apple.IOAccelMemoryInfoCollector
+-	0	com.apple.nfrestore
+-	0	com.apple.msrpc.lsarpc
+115	0	com.apple.KernelEventAgent
+168	0	com.apple.aslmanager
+-	0	com.apple.taskgated-helper
+517	0	com.apple.cmio.registerassistantservice
+120	0	com.apple.hidd
+-	0	com.apple.RemotePairTool
+-	0	com.apple.fpsd
+-	0	com.apple.rpmuxd
+65	0	com.apple.kextd
+-	0	com.apple.tzlinkd
+71	0	com.apple.coreservices.appleevents
+72	0	com.apple.systemstats.analysis
+-	0	com.apple.diagnosticd
+-	0	com.apple.AssetCacheTetheratorService
+75	0	com.apple.powerd
+148	0	com.apple.authd
+-	0	com.apple.driver.ethcheck
+-	0	com.apple.DumpPanic
+-	0	com.apple.vsdbutil
+-	0	com.apple.nfsd
+185	0	com.apple.airportd
+190	0	com.apple.audio.coreaudiod
+509	0	com.apple.akd
+253	0	com.apple.watchdogd
+-	0	com.apple.pfd
+86	0	com.apple.iconservices.iconservicesd
+-	0	com.apple.InstallerProgress
+-	0	com.apple.DesktopServicesHelper.BAC530A8-F74C-4EC4-AF46-083D90958E2A
+-	0	com.apple.nlcd
+-	0	com.apple.systemkeychain
+-	0	com.apple.diagnosticextensions.osx.bluetooth.helper
+29273	0	com.apple.netbiosd
+-	0	com.apple.SCHelper
+-	0	com.apple.softwareupdate_firstrun_tasks
+29540	0	com.apple.periodic-weekly
+-	0	com.apple.installer.osmessagetracing
+363	0	com.apple.nsurlstoraged
+-	0	com.apple.preferences.timezone.admintool
+-	0	com.apple.rootless.init
+-	0	com.apple.statd.notify
+-	0	org.cups.cupsd
+96	0	com.apple.noticeboard.state
+209	0	com.apple.lsd
+282	0	com.apple.metadata.mds.index
+98	0	com.apple.timed
+27582	0	com.apple.usbmuxd
+-	0	com.apple.IOBluetoothUSBDFU
+-	0	com.apple.biokitaggdd
+352	0	com.apple.CrashReporterSupportHelper
+-	0	com.apple.security.authhost.00000000-0000-0000-0000-0000000186A7
+-	0	com.apple.DumpGPURestart
+106	0	com.apple.displaypolicyd
+304	0	com.apple.securityd_service
+3432	0	com.apple.periodic-daily
+21841	0	com.apple.PerfPowerServices
+231	0	com.apple.alf
+-	0	com.apple.dspluginhelperd
+113	0	com.apple.logind
+118	0	com.apple.bluetoothd
+-	0	com.apple.msrpc.netlogon
+-	0	org.wireshark.ChmodBPF
+-	0	com.apple.diagnosticextensions.osx.spotlight.helper
+-	0	com.apple.CoreRAID
+-	0	com.apple.TrustEvaluationAgent.system
+-	0	com.apple.newsyslog
+-	0	com.apple.MRTd
+4143	0	com.apple.taskgated
+293	0	com.apple.GSSCred
+324	0	com.apple.audio.systemsoundserverd
+74	0	com.apple.configd
+478	0	com.apple.captiveagent
+-	0	com.apple.diagnosticextensions.osx.getmobilityinfo.helper
+289	0	com.apple.AccountPolicyHelper
+513	0	com.apple.dmd
+-	0	com.apple.fontmover
+-	0	com.apple.UserNotificationCenter
+396	0	com.apple.icloud.findmydeviced
+29513	0	com.apple.speech.speechsynthesisd
+-	0	com.apple.AppleQEMUGuestAgent
+-	0	com.apple.rpcbind
+91	0	com.apple.coreduetd
+-	0	com.apple.DesktopServicesHelper
+-	0	com.apple.ucupdate.plist
+-	0	com.apple.sysdiagnose_helper
+-	0	com.apple.ManagedClient.enroll
+-	0	com.apple.timezoneupdates.tzd
+493	0	com.apple.AssetCache.builtin
+-	0	com.apple.multiversed
+-	0	com.apple.siri.acousticsignature
+103	0	com.apple.locationd
+-	0	com.apple.DesktopServicesHelper.B96923B8-EE32-4C73-8C28-00CCE9837B7E
+3163	0	com.apple.rtcreportingd
+-	0	com.apple.Kerberos.kcm
+-	0	com.apple.coreservices.sharedfilelistd
+-	0	com.apple.efilogin-helper
+112	0	com.apple.loginwindow
+-	0	com.apple.ReportMemoryException
+-	0	com.apple.cmio.iOSScreenCaptureAssistant
+-	0	com.apple.rapportd
+124	0	com.apple.notifyd
+-	0	com.apple.ReportPanicService
+-	0	com.apple.wifiFirmwareLoader
+66	0	com.apple.fseventsd
+-	0	com.apple.Kerberos.digest-service
+-	0	com.apple.systempreferences.cacheAssistant
+-	0	com.apple.automountd
+-	0	com.apple.applefileutil
+-	0	com.vix.cron
+255	0	com.apple.thermald
+370	0	com.apple.FileCoordination
+-	0	com.apple.eapolcfg_auth
+254	0	com.apple.audio.AudioComponentRegistrar
+29397	0	com.apple.AssetCacheLocatorService
+-	0	com.apple.InstallerDiagnostics.installerdiagd
+496	0	com.apple.softwareupdated
+-	0	com.apple.systemadministration.writeconfig
+-	0	com.apple.MobileAccessoryUpdater
+-	0	com.apple.diskmanagementstartup
+-	0	com.apple.signpost.signpost_reporter
+-	0	com.apple.postfix.master
+21459	0	com.apple.emond.aslmanager
+367	0	com.apple.SubmitDiagInfo
+-	0	com.apple.DesktopServicesHelper.A99B008A-0004-4E7D-89DF-4FE1368B74DE
+-	0	com.apple.DesktopServicesHelper.D67F1577-6029-4281-8B36-42B88511DCA0
+-	0	com.microsoft.office.licensingV2.helper
+272	0	com.apple.bootinstalld
+-	0	com.apple.mbsystemadministration
+518	0	com.apple.cmio.AppleCameraAssistant
+-	0	com.apple.msrpc.mdssvc
+-	0	com.apple.dpd
+-	0	com.apple.corestorage.corestoragehelperd
+529	0	com.apple.ReportCrash.Root
+179	0	com.apple.trustd
+-	0	com.apple.cmio.IIDCVideoAssistant
+125	0	com.apple.security.syspolicy
+-	0	com.apple.defragx
+-	0	com.apple.biometrickitd
+228	0	com.apple.usbd
+126	0	com.apple.distnoted.xpc.daemon
+210	0	com.apple.mDNSResponder.reloaded
+-	0	com.apple.bridgeOSUpdateProxy
+-	0	com.apple.bsd.dirhelper
+114	0	com.apple.revisiond
+-	0	com.apple.smb.preferences
+491	0	com.apple.findmymacd
+136	0	com.apple.cfprefsd.xpc.daemon
+-	0	com.apple.Localization.SetDefaultsService
+-	0	com.apple.xartstorageremoted
+-	0	com.apple.unmountassistant.sysagent
+64	0	com.apple.uninstalld
+261	0	com.apple.colorsync.displayservices
+528	0	com.apple.xpc.smd
+-	0	com.apple.gkreport
+263	0	com.apple.colorsyncd
+-	0	com.apple.backupd
+-	0	com.apple.eoshostd
+-	0	com.apple.airport.wps
+215	0	com.apple.MobileFileIntegrity
+-	0	com.apple.netauth.sys.auth
+-	0	com.apple.testmanagerd
+-	0	com.apple.nfsconf
+79	0	com.apple.mobile.keybagd
+-	0	com.apple.configureLocalKDC
+364	0	com.apple.spindump
+-	0	com.apple.lockd
+85	0	com.apple.metadata.mds
+-	0	com.apple.wwand
+229	0	com.apple.cmio.VDCAssistant
+-	0	com.apple.driver.eficheck
+-	0	com.apple.printtool.daemon
+-	0	com.apple.pfctl
+-	0	com.apple.security.authhost
+-	0	com.apple.CommCenterRootHelper
+-	0	com.apple.security.agent.login
+-	0	com.apple.ionodecache
+-	0	com.apple.gssd
+-	0	com.apple.remotemanagementd
+357	0	com.apple.CryptoTokenKit.ahp
+295	0	com.apple.PerformanceAnalysis.animationperfd
+343	0	com.apple.wirelessproxd
+-	0	com.apple.DesktopServicesHelper.B921ACC4-B90D-45CB-B75A-E72773BA035E
+-	0	com.apple.security.agent.login.00000000-0000-0000-0000-0000000186A7
+-	0	com.apple.afpfs_afpLoad
+97	0	com.apple.coreservices.launchservicesd
+-	0	com.apple.dynamic_pager
+-	71	com.apple.csrutil.report
+-	0	com.apple.iokit.ioserviceauthorized
+-	0	com.apple.Kerberos.kdc
+-	0	com.apple.msrpc.srvsvc
+-	0	com.apple.osanalytics.osanalyticshelper
+-	0	com.apple.bnepd
+-	0	com.apple.dpaudiothru
+-	0	com.apple.familycontrols
+-	0	com.apple.diagnosticextensions.osx.timemachine.helper
+-	0	com.apple.kcproxy
+-	0	com.adobe.acc.installer.v2
+402	0	com.apple.adid
+485	0	com.apple.AmbientDisplayAgent
+-	0	com.apple.storeagent.daemon
+-	0	com.apple.wifivelocityd
+-	0	com.apple.installandsetup.systemmigrationd
+-	0	com.apple.metadata.mds.spindump
+-	0	com.apple.Kerberos.kpasswdd
+337	0	com.apple.WirelessRadioManager
+193	0	com.apple.mobileassetd
+-	0	com.apple.InstallerDiagnostics.installerdiagwatcher
+-	0	com.apple.msrpc.wkssvc
+-	0	com.apple.awacsd
+500	0	com.apple.nfcd
+-	0	com.apple.warmd
+-	0	com.apple.powerd.swd
+-	0	com.apple.ManagedClient
+-	0	com.apple.xpc.uscwoap
+87	0	com.apple.diskarbitrationd
+664	0	com.apple.dprivacyd
+90	0	com.apple.backupd-helper
+-	0	com.apple.netauth.sys.gui
+-	0	com.apple.postfix.newaliases
+-	0	com.apple.systemstats.daily
+-	0	com.apple.bluetoothaudiod
+-	0	com.apple.startupdiskhelper
+224	0	com.apple.ifdreader
+94	0	com.apple.opendirectoryd
+29559	0	com.apple.DataDetectorsSourceAccess
+671	0	com.apple.storeinstalld
+95	0	com.apple.apsd
+-	0	com.apple.internal.aupbregistrarservice
+-	0	com.apple.ManagedClient.cloudconfigurationd
+27886	0	com.apple.GameController.gamecontrollerd
+-	0	com.apple.ReportCrash.Root.Self
+225	0	com.apple.apfsd
+108	0	com.apple.dasd
+-	0	com.apple.sessionlogoutd
+1885	0	com.apple.AssetCacheManagerService
+3123	0	com.apple.xtyped
+-	0	com.apple.storeaccountd.daemon
+-	0	com.apple.cmio.AVCAssistant
+351	0	com.apple.analyticsd
+1418	0	com.apple.diskmanagementd
+214	0	com.apple.CodeSigningHelper
+27632	-14	com.apple.sandboxd
+514	0	com.apple.sysmond
+122	0	com.apple.corebrightnessd
+-	0	com.apple.tailspind
+-	0	com.apple.storeassetd.daemon
+ - nic information
+lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
+	options=1203<RXCSUM,TXCSUM,TXSTATUS,SW_TIMESTAMP>
+	inet 127.0.0.1 netmask 0xff000000 
+	inet6 ::1 prefixlen 128 
+	inet6 fe80::1%lo0 prefixlen 64 scopeid 0x1 
+	nd6 options=201<PERFORMNUD,DAD>
+gif0: flags=8010<POINTOPOINT,MULTICAST> mtu 1280
+stf0: flags=0<> mtu 1280
+XHC20: flags=0<> mtu 0
+en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	ether f4:5c:89:b9:8c:0f 
+	inet6 fe80::1401:b932:5dd5:9319%en0 prefixlen 64 secured scopeid 0x5 
+	inet 10.208.116.151 netmask 0xffffc000 broadcast 10.208.127.255
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: active
+p2p0: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 2304
+	ether 06:5c:89:b9:8c:0f 
+	media: autoselect
+	status: inactive
+awdl0: flags=8943<UP,BROADCAST,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1484
+	ether 4a:a7:bb:07:6c:80 
+	inet6 fe80::48a7:bbff:fe07:6c80%awdl0 prefixlen 64 scopeid 0x7 
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: active
+en1: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+	options=60<TSO4,TSO6>
+	ether 6a:00:01:f3:24:a0 
+	media: autoselect <full-duplex>
+	status: inactive
+en2: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+	options=60<TSO4,TSO6>
+	ether 6a:00:01:f3:24:a1 
+	media: autoselect <full-duplex>
+	status: inactive
+bridge0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=63<RXCSUM,TXCSUM,TSO4,TSO6>
+	ether 6a:00:01:f3:24:a0 
+	Configuration:
+		id 0:0:0:0:0:0 priority 0 hellotime 0 fwddelay 0
+		maxage 0 holdcnt 0 proto stp maxaddr 100 timeout 1200
+		root id 0:0:0:0:0:0 priority 0 ifcost 0 port 0
+		ipfilter disabled flags 0x2
+	member: en1 flags=3<LEARNING,DISCOVER>
+	        ifmaxaddr 0 port 8 priority 0 path cost 0
+	member: en2 flags=3<LEARNING,DISCOVER>
+	        ifmaxaddr 0 port 9 priority 0 path cost 0
+	nd6 options=201<PERFORMNUD,DAD>
+	media: <unknown type>
+	status: inactive
+utun0: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 2000
+	inet6 fe80::ef4:178e:c55f:2739%utun0 prefixlen 64 scopeid 0xb 
+	nd6 options=201<PERFORMNUD,DAD>
+utun1: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+	inet6 fe80::bcf8:6fb5:4f9a:7dad%utun1 prefixlen 64 scopeid 0xc 
+	nd6 options=201<PERFORMNUD,DAD>
+utun2: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+	inet6 fe80::f192:b02a:636d:9392%utun2 prefixlen 64 scopeid 0xd 
+	nd6 options=201<PERFORMNUD,DAD>
+ - route information
+Routing tables
+
+Internet:
+Destination        Gateway            Flags        Refs      Use   Netif Expire
+default            10.208.64.1        UGSc           62      331     en0       
+10.208.64/18       link#5             UCS             3        0     en0      !
+10.208.64.1/32     link#5             UCS             1        0     en0      !
+10.208.64.1        0:0:5e:0:1:1       UHLWIir        11       16     en0    804
+10.208.69.110      cc:69:fa:38:e0:cd  UHLWIi          1       41     en0   1186
+10.208.73.254      fe:78:6:81:4c:61   UHLWI           0        1     en0     18
+10.208.81.248      e0:6d:17:87:19:92  UHLWIi          2       13     en0   1199
+10.208.116.151/32  link#5             UCS             0        0     en0      !
+127                127.0.0.1          UCS             0        0     lo0       
+127.0.0.1          127.0.0.1          UH             63  1577037     lo0       
+169.254            link#5             UCS             1        0     en0      !
+224.0.0/4          link#5             UmCS            1        0     en0      !
+224.0.0.251        1:0:5e:0:0:fb      UHmLWI          0        0     en0       
+255.255.255.255/32 link#5             UCS             0        0     en0      !
+
+Internet6:
+Destination                             Gateway                         Flags         Netif Expire
+default                                 fe80::200:5eff:fe00:101%en0     UGc             en0       
+default                                 fe80::%utun0                    UGcI          utun0       
+default                                 fe80::%utun1                    UGcI          utun1       
+default                                 fe80::%utun2                    UGcI          utun2       
+::1                                     ::1                             UHL             lo0       
+fe80::%lo0/64                           fe80::1%lo0                     UcI             lo0       
+fe80::1%lo0                             link#1                          UHLI            lo0       
+fe80::%en0/64                           link#5                          UCI             en0       
+fe80::200:5eff:fe00:101%en0             0:0:5e:0:1:1                    UHLWIir         en0       
+fe80::436:2927:9e39:c15%en0             e0:6d:17:87:19:92               UHLWI           en0       
+fe80::1401:b932:5dd5:9319%en0           f4:5c:89:b9:8c:f                UHLI            lo0       
+fe80::%awdl0/64                         link#7                          UCI           awdl0       
+fe80::48a7:bbff:fe07:6c80%awdl0         4a:a7:bb:7:6c:80                UHLI            lo0       
+fe80::%utun0/64                         fe80::ef4:178e:c55f:2739%utun0  UcI           utun0       
+fe80::ef4:178e:c55f:2739%utun0          link#11                         UHLI            lo0       
+fe80::%utun1/64                         fe80::bcf8:6fb5:4f9a:7dad%utun1 UcI           utun1       
+fe80::bcf8:6fb5:4f9a:7dad%utun1         link#12                         UHLI            lo0       
+fe80::%utun2/64                         fe80::f192:b02a:636d:9392%utun2 UcI           utun2       
+fe80::f192:b02a:636d:9392%utun2         link#13                         UHLI            lo0       
+ff01::%lo0/32                           ::1                             UmCI            lo0       
+ff01::%en0/32                           link#5                          UmCI            en0       
+ff01::%awdl0/32                         link#7                          UmCI          awdl0       
+ff01::%utun0/32                         fe80::ef4:178e:c55f:2739%utun0  UmCI          utun0       
+ff01::%utun1/32                         fe80::bcf8:6fb5:4f9a:7dad%utun1 UmCI          utun1       
+ff01::%utun2/32                         fe80::f192:b02a:636d:9392%utun2 UmCI          utun2       
+ff02::%lo0/32                           ::1                             UmCI            lo0       
+ff02::%en0/32                           link#5                          UmCI            en0       
+ff02::%awdl0/32                         link#7                          UmCI          awdl0       
+ff02::%utun0/32                         fe80::ef4:178e:c55f:2739%utun0  UmCI          utun0       
+ff02::%utun1/32                         fe80::bcf8:6fb5:4f9a:7dad%utun1 UmCI          utun1       
+ff02::%utun2/32                         fe80::f192:b02a:636d:9392%utun2 UmCI          utun2       
+ - arp information
+? (10.208.64.1) at 0:0:5e:0:1:1 on en0 ifscope [ethernet]
+? (10.208.69.110) at cc:69:fa:38:e0:cd on en0 ifscope [ethernet]
+? (10.208.73.254) at fe:78:6:81:4c:61 on en0 ifscope [ethernet]
+? (10.208.81.248) at e0:6d:17:87:19:92 on en0 ifscope [ethernet]
+? (224.0.0.251) at 1:0:5e:0:0:fb on en0 ifscope permanent [ethernet]
+ - information of processes
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+Metasekoia       27701   0.0  2.8  5999604 468576   ??  S     2:03下午   2:45.44 /Applications/QQ.app/Contents/MacOS/QQ TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=Metasekoia XPC_SERVICE_NAME=com.tencent.qq.47992 USER=Metasekoia XPC_FLAGS=0x1
+Metasekoia       29576   2.8  2.4 93124568 401956   ??  Ss    6:31下午   1:22.09 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 LaunchInstanceID=36F3B61B-931C-48E2-AF4F-FB91C4E353D6 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.WebKit.WebContent USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia       29735   0.0  2.0 57265180 329548   ??  S     6:43下午   0:22.83 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer) --type=renderer --user-data-dir=/Users/Metasekoia/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/Applications/Visual Studio Code.app/Contents/Resources/app --no-sandbox --no-zygote --enable-blink-features=HighlightAPI --disable-color-correct-rendering --lang=zh-CN --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=8 --launch-time-ticks=54604518455 --shared-files --field-trial-handle=1718379636,9720118409827636130,3939117441068923928,131072 --disable-features=PlzServiceWorker,SpareRendererForSitePerProcess --vscode-window-config=vscode:868d09c1-413e-4c47-b790-373e8984eecf TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=Metasekoia XPC_SERVICE_NAME=com.microsoft.VSCode.55580 USER=Metasekoia XPC_FLAGS=0x0 ORIGINAL_XDG_CURRENT_DESKTOP=undefined VSCODE_CWD=/ VSCODE_NLS_CONFIG={"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"42e84e0914b17800d483f69e299e1b00.zh-cn","_translationsConfigFile":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/tcf.json","_cacheRoot":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn","_resolvedLanguagePackCoreLocation":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/da15b6fd3ef856477bf6f4fb29ba1b7af717770d","_corruptedFile":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/corrupted.info","_languagePackSupport":true} VSCODE_CODE_CACHE_PATH=/Users/Metasekoia/Library/Application Support/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d VSCODE_IPC_HOOK=/Users/Metasekoia/Library/Application Support/Code/1.67.1-main.sock VSCODE_PID=27885
+Metasekoia       27941   0.0  1.3 50912080 222812   ??  S     2:16下午   0:10.41 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer) --type=renderer --user-data-dir=/Users/Metasekoia/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/Applications/Visual Studio Code.app/Contents/Resources/app --no-sandbox --no-zygote --node-integration-in-worker --disable-color-correct-rendering --lang=zh-CN --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=5 --launch-time-ticks=51300786449 --shared-files --field-trial-handle=1718379636,9720118409827636130,3939117441068923928,131072 --disable-features=PlzServiceWorker,SpareRendererForSitePerProcess --vscode-window-config=vscode:cf245b4c-f66f-474e-9a66-dcc396401357 --vscode-window-kind=shared-process TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=Metasekoia XPC_SERVICE_NAME=com.microsoft.VSCode.55580 USER=Metasekoia XPC_FLAGS=0x0 ORIGINAL_XDG_CURRENT_DESKTOP=undefined VSCODE_CWD=/ VSCODE_NLS_CONFIG={"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"42e84e0914b17800d483f69e299e1b00.zh-cn","_translationsConfigFile":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/tcf.json","_cacheRoot":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn","_resolvedLanguagePackCoreLocation":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/da15b6fd3ef856477bf6f4fb29ba1b7af717770d","_corruptedFile":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/corrupted.info","_languagePackSupport":true} VSCODE_CODE_CACHE_PATH=/Users/Metasekoia/Library/Application Support/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d VSCODE_IPC_HOOK=/Users/Metasekoia/Library/Application Support/Code/1.67.1-main.sock VSCODE_PID=27885
+Metasekoia       27638   0.0  1.1  6524896 189856   ??  S     2:00下午   0:40.57 /Applications/Safari.app/Contents/MacOS/Safari TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=Metasekoia XPC_SERVICE_NAME=com.apple.Safari.47952 USER=Metasekoia XPC_FLAGS=0x1
+Metasekoia       27885   0.0  1.1 43136772 182512   ??  S     2:16下午   0:37.36 /Applications/Visual Studio Code.app/Contents/MacOS/Electron TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=Metasekoia XPC_SERVICE_NAME=com.microsoft.VSCode.55580 USER=Metasekoia XPC_FLAGS=0x1
+Metasekoia       29747   5.4  1.1  5367916 181296   ??  S     6:43下午   0:37.41 /Applications/iTerm.app/Contents/MacOS/iTerm2 TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=Metasekoia XPC_SERVICE_NAME=com.googlecode.iterm2.47968 USER=Metasekoia XPC_FLAGS=0x1
+Metasekoia         313   0.0  1.1  5216472 177592   ??  S    二09下午   1:19.30 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.Dock.agent USER=Metasekoia XPC_FLAGS=0x1
+Metasekoia         318   0.0  0.9  5264940 152964   ??  S    二09下午   3:18.93 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.Finder USER=Metasekoia XPC_FLAGS=0x1
+Metasekoia       27524   0.0  0.9  5297656 152616   ??  S     1:07下午   0:45.84 /Applications/Preview.app/Contents/MacOS/Preview -psn_0_2269738 __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ HOME=/Users/Metasekoia SHELL=/bin/zsh Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=Metasekoia XPC_SERVICE_NAME=com.apple.xpc.launchd.oneshot.0x10000024.Preview COMMAND_MODE=unix2003 USER=Metasekoia XPC_FLAGS=0x1
+Metasekoia       29571   0.0  0.8  5136712 141676   ??  S     6:31下午   4:15.99 /Applications/NeteaseMusic.app/Contents/MacOS/NeteaseMusic TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=Metasekoia XPC_SERVICE_NAME=com.netease.163music.50164 USER=Metasekoia XPC_FLAGS=0x1
+Metasekoia       29960   0.0  0.8 42390532 137292   ??  S     6:44下午   0:02.08 /Applications/Visual Studio Code.app/Contents/MacOS/Electron --ms-enable-electron-run-as-node --inspect-port=0 /Applications/Visual Studio Code.app/Contents/Resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock ELECTRON_RUN_AS_NODE=1 TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/Applications/Wireshark.app/Contents/MacOS:/Users/Metasekoia/apache-maven-3.6.3/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin LOGNAME=Metasekoia XPC_SERVICE_NAME=com.microsoft.VSCode.55580 USER=Metasekoia XPC_FLAGS=0x0 ORIGINAL_XDG_CURRENT_DESKTOP=undefined VSCODE_CWD=/ VSCODE_NLS_CONFIG={"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"42e84e0914b17800d483f69e299e1b00.zh-cn","_translationsConfigFile":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/tcf.json","_cacheRoot":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn","_resolvedLanguagePackCoreLocation":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/da15b6fd3ef856477bf6f4fb29ba1b7af717770d","_corruptedFile":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/corrupted.info","_languagePackSupport":true} VSCODE_CODE_CACHE_PATH=/Users/Metasekoia/Library/Application Support/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d VSCODE_IPC_HOOK=/Users/Metasekoia/Library/Application Support/Code/1.67.1-main.sock VSCODE_PID=27885 SHLVL=0 PWD=/ OLDPWD=/ HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles/bottles HOMEBREW_PREFIX=/usr/local HOMEBREW_CELLAR=/usr/local/Cellar HOMEBREW_REPOSITORY=/usr/local/Homebrew MANPATH=/usr/local/share/man:: INFOPATH=/usr/local/share/info: MAVEN_HOME=/Users/Metasekoia/apache-maven-3.6.3/bin PYTHON3=/Library/Frameworks/Python.framework/Versions/3.8/bin CLICOLOR=1 LSCOLORS=Gxfxcxdxbxegedabagacad ZSH=/Users/Metasekoia/.oh-my-zsh PAGER=less LESS=-R _=/Applications/Visual Studio Code.app/Contents/MacOS/Electron VSCODE_AMD_ENTRYPOINT=vs/workbench/api/node/extensionHostProcess VSCODE_PIPE_LOGGING=true VSCODE_VERBOSE_LOGGING=true VSCODE_LOG_NATIVE=false VSCODE_IPC_HOOK_EXTHOST=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/vscode-ipc-9f5154ff-635a-47e6-9ecd-fbdcadad5ad7.sock VSCODE_HANDLES_UNCAUGHT_ERRORS=true VSCODE_LOG_STACK=false NODE_CHANNEL_FD=3 NODE_CHANNEL_SERIALIZATION_MODE=json
+_windowserver      230   9.8  0.8  7653872 134916   ??  Ss   二09下午  49:01.00 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+_softwareupdate    496   0.0  0.6  4621308 100820   ??  Ss   二09下午   0:23.77 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated
+Metasekoia         953   0.0  0.5  5357788  80400   ??  Ss   二09下午   0:57.92 /System/Library/Input Methods/SCIM.app/Contents/PlugIns/SCIM_Extension.appex/Contents/MacOS/SCIM_Extension TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.inputmethod.SCIM USER=Metasekoia XPC_FLAGS=0x419
+Metasekoia       27890   0.0  0.5  4854424  78984   ??  S     2:16下午   0:09.97 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (GPU).app/Contents/MacOS/Code Helper (GPU) --type=gpu-process --disable-color-correct-rendering --user-data-dir=/Users/Metasekoia/Library/Application Support/Code --gpu-preferences=UAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgFAAAAAAAAKAUAAAAAAAC4AQAANgAAALABAAAAAAAAuAEAAAAAAADAAQAAAAAAAMgBAAAAAAAA0AEAAAAAAADYAQAAAAAAAOABAAAAAAAA6AEAAAAAAADwAQAAAAAAAPgBAAAAAAAAAAIAAAAAAAAIAgAAAAAAABACAAAAAAAAGAIAAAAAAAAgAgAAAAAAACgCAAAAAAAAMAIAAAAAAAA4AgAAAAAAAEACAAAAAAAASAIAAAAAAABQAgAAAAAAAFgCAAAAAAAAYAIAAAAAAABoAgAAAAAAAHACAAAAAAAAeAIAAAAAAACAAgAAAAAAAIgCAAAAAAAAkAIAAAAAAACYAgAAAAAAAKACAAAAAAAAqAIAAAAAAACwAgAAAAAAALgCAAAAAAAAwAIAAAAAAADIAgAAAAAAANACAAAAAAAA2AIAAAAAAADgAgAAAAAAAOgCAAAAAAAA8AIAAAAAAAD4AgAAAAAAAAADAAAAAAAACAMAAAAAAAAQAwAAAAAAABgDAAAAAAAAIAMAAAAAAAAoAwAAAAAAADADAAAAAAAAOAMAAAAAAABAAwAAAAAAAEgDAAAAAAAAUAMAAAAAAABYAwAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAACAAAAEAAAAAAAAAAAAAAABwAAABAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAAAAAAAJAAAAEAAAAAAAAAAAAAAACwAAABAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAAAAAAADwAAABAAAAAAAAAAAQAAAAAAAAAQAAAAAAAAAAEAAAACAAAAEAAAAAAAAAABAAAABwAAABAAAAAAAAAAAQAAAAgAAAAQAAAAAAAAAAEAAAAJAAAAEAAAAAAAAAABAAAACwAAABAAAAAAAAAAAQAAAAwAAAAQAAAAAAAAAAEAAAAOAAAAEAAAAAAAAAABAAAADwAAABAAAAAAAAAABAAAAAAAAAAQAAAAAAAAAAQAAAACAAAAEAAAAAAAAAAEAAAABwAAABAAAAAAAAAABAAAAAgAAAAQAAAAAAAAAAQAAAAJAAAAEAAAAAAAAAAEAAAACwAAABAAAAAAAAAABAAAAAwAAAAQAAAAAAAAAAQAAAAOAAAAEAAAAAAAAAAEAAAADwAAABAAAAAAAAAABwAAAAAAAAAQAAAAAAAAAAcAAAACAAAAEAAAAAAAAAAHAAAABwAAABAAAAAAAAAABwAAAAgAAAAQAAAAAAAAAAcAAAAJAAAAEAAAAAAAAAAHAAAACwAAABAAAAAAAAAABwAAAAwAAAAQAAAAAAAAAAcAAAAOAAAAEAAAAAAAAAAHAAAADwAAABAAAAAAAAAACAAAAAAAAAAQAAAAAAAAAAgAAAACAAAAEAAAAAAAAAAIAAAABwAAABAAAAAAAAAACAAAAAgAAAAQAAAAAAAAAAgAAAAJAAAAEAAAAAAAAAAIAAAACwAAABAAAAAAAAAACAAAAAwAAAAQAAAAAAAAAAgAAAAOAAAAEAAAAAAAAAAIAAAADwAAABAAAAAAAAAACgAAAAAAAAAQAAAAAAAAAAoAAAACAAAAEAAAAAAAAAAKAAAABwAAABAAAAAAAAAACgAAAAgAAAAQAAAAAAAAAAoAAAAJAAAAEAAAAAAAAAAKAAAACwAAABAAAAAAAAAACgAAAAwAAAAQAAAAAAAAAAoAAAAOAAAAEAAAAAAAAAAKAAAADwAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files --field-trial-handle=1718379636,9720118409827636130,3939117441068923928,131072 --disable-features=PlzServiceWorker,SpareRendererForSitePerProcess --seatbelt-client=39 TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=Metasekoia XPC_SERVICE_NAME=com.microsoft.VSCode.55580 USER=Metasekoia XPC_FLAGS=0x0 ORIGINAL_XDG_CURRENT_DESKTOP=undefined VSCODE_CWD=/ OS_ACTIVITY_MODE=disable
+root               282   0.0  0.5  5800344  75988   ??  Ss   二09下午   2:26.93 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+Metasekoia         359   0.0  0.4  5120804  65184   ??  S    二09下午   0:28.77 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.notificationcenterui.agent USER=Metasekoia XPC_FLAGS=0x1
+Metasekoia       28540   0.0  0.4  5113824  62660   ??  Ss    3:26下午   0:01.81 /System/Library/PrivateFrameworks/Lookup.framework/Versions/A/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.LookupViewService USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia       27942   0.1  0.4 42371740  61268   ??  S     2:16下午   0:03.72 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer) --ms-enable-electron-run-as-node /Applications/Visual Studio Code.app/Contents/Resources/app/out/bootstrap-fork --type=ptyHost ELECTRON_RUN_AS_NODE=1 TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=Metasekoia XPC_SERVICE_NAME=com.microsoft.VSCode.55580 USER=Metasekoia XPC_FLAGS=0x0 ORIGINAL_XDG_CURRENT_DESKTOP=undefined VSCODE_CWD=/ VSCODE_NLS_CONFIG={"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"42e84e0914b17800d483f69e299e1b00.zh-cn","_translationsConfigFile":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/tcf.json","_cacheRoot":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn","_resolvedLanguagePackCoreLocation":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/da15b6fd3ef856477bf6f4fb29ba1b7af717770d","_corruptedFile":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/corrupted.info","_languagePackSupport":true} VSCODE_CODE_CACHE_PATH=/Users/Metasekoia/Library/Application Support/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d VSCODE_IPC_HOOK=/Users/Metasekoia/Library/Application Support/Code/1.67.1-main.sock VSCODE_PID=27885 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL=true VSCODE_PARENT_PID=27941 VSCODE_LAST_PTY_ID=0 VSCODE_AMD_ENTRYPOINT=vs/platform/terminal/node/ptyHostMain VSCODE_PIPE_LOGGING=true VSCODE_VERBOSE_LOGGING=true VSCODE_RECONNECT_GRACE_TIME=60000 VSCODE_RECONNECT_SHORT_GRACE_TIME=6000 VSCODE_RECONNECT_SCROLLBACK=100 NODE_CHANNEL_FD=3 NODE_CHANNEL_SERIALIZATION_MODE=json
+Metasekoia       29597   0.0  0.4  5034004  59548   ??  S     6:32下午   0:10.39 /Applications/QuickTime Player.app/Contents/MacOS/QuickTime Player -psn_0_2470491 __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ HOME=/Users/Metasekoia SHELL=/bin/zsh Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=Metasekoia XPC_SERVICE_NAME=com.apple.xpc.launchd.oneshot.0x10000026.QuickTime Player COMMAND_MODE=unix2003 USER=Metasekoia XPC_FLAGS=0x1
+root             27632   0.0  0.4  4414276  59420   ??  Ss    2:00下午   0:02.84 /usr/libexec/sandboxd
+Metasekoia       29961   0.0  0.3 42372012  53844   ??  S     6:44下午   0:00.33 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer) --ms-enable-electron-run-as-node /Applications/Visual Studio Code.app/Contents/Resources/app/out/bootstrap-fork --type=fileWatcher ELECTRON_RUN_AS_NODE=1 TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=Metasekoia XPC_SERVICE_NAME=com.microsoft.VSCode.55580 USER=Metasekoia XPC_FLAGS=0x0 ORIGINAL_XDG_CURRENT_DESKTOP=undefined VSCODE_CWD=/ VSCODE_NLS_CONFIG={"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"42e84e0914b17800d483f69e299e1b00.zh-cn","_translationsConfigFile":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/tcf.json","_cacheRoot":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn","_resolvedLanguagePackCoreLocation":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/da15b6fd3ef856477bf6f4fb29ba1b7af717770d","_corruptedFile":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/corrupted.info","_languagePackSupport":true} VSCODE_CODE_CACHE_PATH=/Users/Metasekoia/Library/Application Support/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d VSCODE_IPC_HOOK=/Users/Metasekoia/Library/Application Support/Code/1.67.1-main.sock VSCODE_PID=27885 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL=true VSCODE_AMD_ENTRYPOINT=vs/platform/files/node/watcher/watcherMain VSCODE_PIPE_LOGGING=true VSCODE_VERBOSE_LOGGING=true VSCODE_PARENT_PID=27941 NODE_CHANNEL_FD=3 NODE_CHANNEL_SERIALIZATION_MODE=json
+Metasekoia       30069   0.0  0.3 89471124  47524   ??  Ss    6:47下午   0:00.18 /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 LaunchInstanceID=29A458F6-BE67-4B62-8F6B-0A937BF5A10F SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.WebKit.WebContent USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         598   0.0  0.3  4446440  47060   ??  S    二09下午   1:10.95 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.photoanalysisd USER=Metasekoia XPC_FLAGS=0x19
+root                85   0.0  0.3  4524356  46676   ??  Ss   二09下午   4:01.41 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+Metasekoia       27643   0.0  0.3  5039424  44652   ??  Ss    2:00下午   0:00.70 /Applications/Safari.app/Contents/XPCServices/com.apple.Safari.SandboxBroker.xpc/Contents/MacOS/com.apple.Safari.SandboxBroker TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.Safari.SandboxBroker USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia       29579   0.0  0.3  4444200  43748   ??  Ss    6:31下午   0:00.06 /System/Library/Frameworks/iTunesLibrary.framework/Versions/A/XPCServices/com.apple.iTunesLibraryService.xpc/Contents/MacOS/com.apple.iTunesLibraryService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.iTunesLibraryService USER=Metasekoia XPC_FLAGS=0x19
+root               215   0.0  0.3  4422324  42404   ??  Ss   二09下午   0:04.88 /usr/libexec/amfid
+Metasekoia       27640   0.0  0.2  4516040  41896   ??  Ss    2:00下午   0:09.81 /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 LaunchInstanceID=EEFB67B7-B83B-45DD-AE0D-9041FCD6C8BA SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.WebKit.Networking USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia       29666   0.0  0.2  5055952  40224   ??  Ss    6:38下午   0:01.12 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/DocumentPopoverViewService.xpc/Contents/MacOS/DocumentPopoverViewService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.appkit.xpc.documentPopoverViewService USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia       13739   0.0  0.2  5045344  39156   ??  Ss   四04下午   0:05.90 /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.quicklook.QuickLookUIService USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia       29577   0.0  0.2  4400060  38060   ??  Ss    6:31下午   0:04.31 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 LaunchInstanceID=828C0954-7B6D-49C5-A4A3-0E8401FA633D SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.WebKit.Networking USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         387   0.0  0.2  4404520  37528   ??  S    二09下午   0:19.16 /usr/libexec/nsurlstoraged TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.nsurlstoraged USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia        3532   0.0  0.2  4457284  37444   ??  Ss   三12下午   0:00.37 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/media-indexer.xpc/Contents/MacOS/media-indexer TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.siri.media-indexer USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia       27892   0.0  0.2  4569648  37108   ??  S     2:16下午   0:00.79 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=zh-CN --service-sandbox-type=network --user-data-dir=/Users/Metasekoia/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files --field-trial-handle=1718379636,9720118409827636130,3939117441068923928,131072 --disable-features=PlzServiceWorker,SpareRendererForSitePerProcess --seatbelt-client=52 TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=Metasekoia XPC_SERVICE_NAME=com.microsoft.VSCode.55580 USER=Metasekoia XPC_FLAGS=0x0 ORIGINAL_XDG_CURRENT_DESKTOP=undefined VSCODE_CWD=/ VSCODE_NLS_CONFIG={"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"42e84e0914b17800d483f69e299e1b00.zh-cn","_translationsConfigFile":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/tcf.json","_cacheRoot":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn","_resolvedLanguagePackCoreLocation":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/da15b6fd3ef856477bf6f4fb29ba1b7af717770d","_corruptedFile":"/Users/Metasekoia/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/corrupted.info","_languagePackSupport":true} VSCODE_CODE_CACHE_PATH=/Users/Metasekoia/Library/Application Support/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d VSCODE_IPC_HOOK=/Users/Metasekoia/Library/Application Support/Code/1.67.1-main.sock VSCODE_PID=27885 OS_ACTIVITY_MODE=disable
+Metasekoia         372   0.0  0.2  4571552  36680   ??  S    二09下午   0:19.69 /System/Library/CoreServices/iconservicesagent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.iconservices.iconservicesagent USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         382   0.0  0.2  4416664  34496   ??  S    二09下午   0:26.86 /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.CalendarAgent USER=Metasekoia NSRunningFromLaunchd=1 XPC_FLAGS=0x19
+root                78   0.0  0.2  4448112  30876   ??  Ss   二09下午   0:32.22 /usr/libexec/logd
+Metasekoia         112   0.0  0.2  5045104  30780   ??  Ss   二09下午   0:22.83 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console
+root             29513   0.0  0.2  4417048  27372   ??  Ss    6:29下午   0:00.48 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd
+Metasekoia       27641   0.0  0.2  5950676  26656   ??  Ss    2:00下午   0:01.58 /Applications/Antivirus One.app/Contents/PlugIns/ToolbarSafariExtension.appex/Contents/MacOS/ToolbarSafariExtension TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.trendmicro.DrSafety.ToolbarSafariExtension USER=Metasekoia XPC_FLAGS=0x419
+Metasekoia       27717   0.0  0.2  4911316  26160   ??  S     2:03下午   0:01.87 /Applications/QQ.app/Contents/Library/LoginItems/QQ jietu plugin.app/Contents/MacOS/QQ jietu plugin TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=Metasekoia XPC_SERVICE_NAME=FN2V63AD2J.com.tencent.ScreenCapture2.55720 USER=Metasekoia XPC_FLAGS=0x1
+root               193   0.0  0.2  4394184  25176   ??  Ss   二09下午   0:17.20 /usr/libexec/mobileassetd
+root               185   0.0  0.1  4399336  24396   ??  Ss   二09下午   4:25.73 /usr/libexec/airportd
+Metasekoia         317   0.0  0.1  4398048  24208   ??  S    二09下午   0:59.01 /usr/libexec/trustd --agent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia DEBUGSCOPE=-policy-node,policy-set,policy,alloc,trust,bind,profile,trace,dbconn,OTR,serverxpc,sqlite3,error_thee_well LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin WAIT4DEBUGGER=NO XPC_SERVICE_NAME=com.apple.trustd.agent USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         314   0.1  0.1  5047412  23596   ??  S    二09下午   3:10.35 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.SystemUIServer.agent USER=Metasekoia XPC_FLAGS=0x1
+Metasekoia       29600   0.0  0.1  4926716  23364   ??  S     6:32下午   0:00.63 /System/Library/CoreServices/OSDUIHelper.app/Contents/MacOS/OSDUIHelper TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.OSDUIHelper USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         550   0.0  0.1  4620044  22360   ??  S    二09下午   0:13.64 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.suggestd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         328   0.0  0.1  4393152  22136   ??  S    二09下午   0:08.59 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.cloudd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         595   0.0  0.1  4442464  21096   ??  S    二09下午   0:31.44 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Support/photolibraryd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.photolibraryd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia       30890   0.0  0.1  4347572  19428   ??  S     7:11下午   0:00.08 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker-shared -c MDSImporterWorker -m com.apple.mdworker.shared TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ LaunchInstanceID=0B000000-0000-0000-0000-000000000000 SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin MallocCorruptionAbort=1 XPC_SERVICE_NAME=com.apple.mdworker.shared USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         353   0.0  0.1  4393676  19328   ??  S    二09下午   0:05.43 /usr/sbin/usernoted TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.usernoted USER=Metasekoia XPC_FLAGS=0x1
+Metasekoia         366   0.0  0.1  4413188  19216   ??  S    二09下午   1:03.00 /usr/libexec/sharingd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.sharingd USER=Metasekoia XPC_FLAGS=0x9
+Metasekoia         549   0.0  0.1  4833304  19044   ??  S    二09下午   0:05.96 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.corespotlightd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia       27645   0.0  0.1  4465708  19020   ??  S     2:00下午   0:00.18 /System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/webinspectord TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.webinspectord USER=Metasekoia XPC_FLAGS=0x9
+root                72   0.0  0.1  4395828  18852   ??  Ss   二09下午   0:39.93 /usr/sbin/systemstats --daemon
+root              1418   0.0  0.1  4405652  18540   ??  Ss   二10下午   0:00.65 /usr/libexec/diskmanagementd
+Metasekoia       28974   0.0  0.1  4401632  18508   ??  S     3:33下午   0:00.48 /System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.coreservices.uiagent USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         319   0.0  0.1  4390920  17568   ??  S    二09下午   0:11.74 /usr/libexec/secd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia DEBUGSCOPE=-policy-node,policy-set,policy,alloc,trust,bind,profile,trace,dbconn,OTR,serverxpc,sqlite3,error_thee_well,ringSigning LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin WAIT4DEBUGGER=NO XPC_SERVICE_NAME=com.apple.secd USER=Metasekoia XPC_FLAGS=0x19
+root                 1   0.0  0.1  4374344  17128   ??  Ss   二09下午   4:12.99 /sbin/launchd
+root             29436   0.1  0.1  4352812  16916   ??  S     6:28下午   0:05.03 /Applications/EasyConnect.app/Contents/Resources/bin/ECAgent --resume
+Metasekoia         306   0.0  0.1  4360044  16472   ??  S    二09下午   0:27.75 /usr/sbin/cfprefsd agent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.cfprefsd.xpc.agent USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         347   0.0  0.1  4387700  16428   ??  S    二09下午   0:10.93 /usr/libexec/routined LAUNCHED_BY_LAUNCHD TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.routined USER=Metasekoia XPC_FLAGS=0x9
+Metasekoia         950   0.0  0.1  4603140  15932   ??  S    二09下午   0:05.15 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.applespell USER=Metasekoia XPC_FLAGS=0x19
+root               179   0.0  0.1  4389328  15400   ??  Ss   二09下午   0:40.08 /usr/libexec/trustd
+Metasekoia         341   0.0  0.1  4555304  15324   ??  S    二09下午   0:12.35 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.accountsd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         369   0.0  0.1  5052220  15288   ??  S    二09下午   0:07.64 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.Spotlight USER=Metasekoia XPC_FLAGS=0x1
+Metasekoia         376   0.0  0.1  4395364  14924   ??  S    二09下午   0:14.11 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.geod USER=Metasekoia XPC_FLAGS=0x19 DEFAULT_NETWORK_PRIVACY_LEVEL=public
+root                94   0.0  0.1  4410144  14768   ??  Ss   二09下午   1:08.33 /usr/libexec/opendirectoryd
+root               125   0.0  0.1  4387208  13888   ??  Ss   二09下午   0:13.26 /usr/libexec/syspolicyd
+Metasekoia       29598   0.0  0.1  4378776  13736   ??  Ss    6:32下午   0:00.05 /System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A/XPCServices/XprotectService.xpc/Contents/MacOS/XprotectService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.XprotectFramework.AnalysisService USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia       29573   0.0  0.1  4838536  13520   ??  Ss    6:31下午   0:00.04 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 LaunchInstanceID=29B3E20C-B39C-4816-BCB4-F120FC2CBF0D SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.MTLCompilerService USER=Metasekoia MallocNanoZone=1 XPC_FLAGS=0x19
+root               572   0.0  0.1  4389740  13352   ??  Ss   二09下午   0:00.65 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/system_installd
+Metasekoia       30858   0.0  0.1  4329976  12980   ??  S     7:11下午   0:00.05 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker-shared -c MDSImporterWorker -m com.apple.mdworker.shared TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ LaunchInstanceID=05000000-0000-0000-0000-000000000000 SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin MallocCorruptionAbort=1 XPC_SERVICE_NAME=com.apple.mdworker.shared USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         501   0.0  0.1  4393340  12852   ??  S    二09下午   0:04.03 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeassetd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.storeassetd USER=Metasekoia XPC_FLAGS=0x9
+_locationd         103   0.0  0.1  4398020  12792   ??  Ss   二09下午   1:06.03 /usr/libexec/locationd
+root                74   0.0  0.1  4386860  12584   ??  Ss   二09下午   1:05.15 /usr/libexec/configd
+root                65   0.0  0.1  4383524  12220   ??  Ss   二09下午   0:15.81 /usr/libexec/kextd
+Metasekoia       27497   0.0  0.1  4865504  12068   ??  Ss    1:05下午   0:00.05 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ LaunchInstanceID=88B36985-603C-44EA-9F82-3C150369A5C4 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.MTLCompilerService USER=Metasekoia MallocNanoZone=1 XPC_FLAGS=0x19
+root               262   0.0  0.1  4386380  11884   ??  Ss   二09下午   0:07.69 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd system
+Metasekoia         335   0.0  0.1  4389132  11496   ??  S    二09下午   0:06.34 /usr/libexec/nsurlsessiond TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.nsurlsessiond USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia        1711   0.0  0.1  4390256  11392   ??  S    二10下午   0:01.79 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.speech.speechsynthesisd USER=Metasekoia XPC_FLAGS=0x9
+Metasekoia       29572   0.0  0.1  4813736  11244   ??  Ss    6:31下午   0:00.04 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 LaunchInstanceID=4AD9D68A-6F3B-4AB7-A2A3-13225282B77D SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.MTLCompilerService USER=Metasekoia MallocNanoZone=1 XPC_FLAGS=0x19
+Metasekoia         375   0.0  0.1  4390600  11216   ??  S    二09下午   0:04.07 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerce TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.commerce USER=Metasekoia XPC_FLAGS=0x9
+Metasekoia       27496   0.0  0.1  4859308  11176   ??  Ss    1:05下午   0:00.09 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ LaunchInstanceID=A468399F-B0EC-4441-9D2A-30A1516F2BB9 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.MTLCompilerService USER=Metasekoia MallocNanoZone=1 XPC_FLAGS=0x19
+Metasekoia       28127   0.0  0.1  4368720  11164   ??  Ss    2:20下午   0:00.04 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/SandboxedServiceRunner.xpc/Contents/MacOS/SandboxedServiceRunner TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.appkit.xpc.sandboxedServiceRunner USER=Metasekoia XPC_FLAGS=0x19
+_networkd          195   0.0  0.1  4387036  11060   ??  Ss   二09下午   0:38.49 /usr/libexec/symptomsd
+Metasekoia       29583   0.0  0.1  4351312  11048   ??  Ss    6:31下午   0:00.03 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/SandboxedServiceRunner.xpc/Contents/MacOS/SandboxedServiceRunner TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.appkit.xpc.sandboxedServiceRunner USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia       30257   0.0  0.1  4341072  11012   ??  Ss    7:03下午   0:00.03 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/SandboxedServiceRunner.xpc/Contents/MacOS/SandboxedServiceRunner TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.appkit.xpc.sandboxedServiceRunner USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         388   0.0  0.1  4384916  10976   ??  Ss   二09下午   0:07.50 /System/Library/PrivateFrameworks/CalendarNotification.framework/Versions/A/XPCServices/CalNCService.xpc/Contents/MacOS/CalNCService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.CalendarNotification.CalNCService USER=Metasekoia XPC_FLAGS=0x19
+root             21841   0.0  0.1  4380044  10712   ??  Ss   日12下午   0:06.90 /usr/libexec/PerfPowerServices
+_netbios         29273   0.0  0.1  4335392  10612   ??  SNs   6:20下午   0:00.03 /usr/sbin/netbiosd
+_gamecontrollerd 27886   0.0  0.1  4350924  10320   ??  Ss    2:16下午   0:00.33 /usr/libexec/gamecontrollerd
+Metasekoia       24921   0.0  0.1  4923116   9964   ??  S    日12下午   0:02.39 /System/Library/CoreServices/LocationMenu.app/Contents/MacOS/LocationMenu TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.locationmenu USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         374   0.0  0.1  4387044   9920   ??  S    二09下午   0:02.51 /System/Library/PrivateFrameworks/CoreParsec.framework/parsecd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.parsecd USER=Metasekoia XPC_FLAGS=0x19 CFNETWORK_STORAGED_TIMERELOFF=YES
+Metasekoia         336   0.0  0.1  4380676   9812   ??  S    二09下午   1:01.02 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.xtyped USER=Metasekoia XPC_FLAGS=0x9 MallocStackLogging_=1
+Metasekoia       27889   0.0  0.1  4317240   9724   ??  S     2:16下午   0:00.04 /Applications/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Helpers/chrome_crashpad_handler --no-rate-limit --monitor-self-annotation=ptype=crashpad-handler --database=/Users/Metasekoia/Library/Application Support/Code/Crashpad --url=appcenter://code?aid=860d6632-f65b-490b-85a8-3e72944f7774&uid=64f8e8da-e47f-499a-800a-543913071992&iid=64f8e8da-e47f-499a-800a-543913071992&sid=64f8e8da-e47f-499a-800a-543913071992 --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.67.1 --annotation=prod=Electron --annotation=ver=17.4.1 --handshake-fd=27 TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=Metasekoia XPC_SERVICE_NAME=0 USER=Metasekoia XPC_FLAGS=0x0 ORIGINAL_XDG_CURRENT_DESKTOP=undefined VSCODE_CWD=/
+root                91   0.0  0.1  4386748   9704   ??  Ss   二09下午   0:04.57 /usr/libexec/coreduetd
+_assetcache      29397   0.0  0.1  4380488   9588   ??  Ss    6:28下午   0:00.13 /System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -d
+Metasekoia         993   0.0  0.1  4391912   9476   ??  S    二09下午   0:18.50 /System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/com.apple.Safari.SafeBrowsing.Service TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.Safari.SafeBrowsing.Service USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         332   0.0  0.1  4382372   9360   ??  S    二09下午   0:03.66 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.tccd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia       29578   0.0  0.1  4332532   9288   ??  Ss    6:31下午   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.audio.SandboxHelper USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia       29669   0.0  0.1  4315384   9272   ??  Ss    6:39下午   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.audio.SandboxHelper USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia       29599   0.0  0.1  4298740   9264   ??  Ss    6:32下午   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.audio.SandboxHelper USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         368   0.0  0.1  4985260   9220   ??  Ss   二09下午   0:04.87 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.dock.extra USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         426   0.0  0.1  4401104   9112   ??  S    二09下午   0:04.63 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app/Contents/MacOS/nbagent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.noticeboard.agent USER=Metasekoia XPC_FLAGS=0x9
+root               170   0.0  0.1  4384848   9092   ??  Ss   二09下午   0:23.54 /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored
+_nsurlsessiond     199   0.0  0.1  4388376   9088   ??  Ss   二09下午   0:03.06 /usr/libexec/nsurlsessiond --privileged
+Metasekoia       27891   0.0  0.1  4370024   8568   ??  Ss    2:16下午   0:00.08 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.coremedia.videodecoder USER=Metasekoia XPC_FLAGS=0x19
+root             29263   0.0  0.1  4377736   8524   ??  Ss    5:34下午   0:00.16 /usr/sbin/ocspd
+root                95   0.0  0.1  4383668   8488   ??  Ss   二09下午   0:16.06 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+Metasekoia        3928   0.0  0.0  4388796   8240   ??  S    三12下午   0:02.01 /System/Library/PrivateFrameworks/CloudServices.framework/Versions/A/XPCServices/com.apple.sbd.xpc/Contents/MacOS/com.apple.sbd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.sbd USER=Metasekoia XPC_FLAGS=0x19
+root                68   0.0  0.0  4383176   8168   ??  Ss   二09下午   0:01.40 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted
+Metasekoia         661   0.0  0.0  4383572   8140   ??  S    二09下午   0:03.35 /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstoreagent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.appstoreagent USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         665   0.0  0.0  4379528   8104   ??  S    二09下午   0:00.96 /System/Library/CoreServices/mapspushd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.Maps.mapspushd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         428   0.0  0.0  4387368   8056   ??  S    二09下午   0:02.43 /usr/libexec/adprivacyd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.ap.adprivacyd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         401   0.0  0.0  4388744   8016   ??  S    二09下午   0:02.81 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.akd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         323   0.0  0.0  4397508   8000   ??  S    二09下午   0:05.00 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.identityservicesd USER=Metasekoia NSRunningFromLaunchd=1 XPC_FLAGS=0x1
+root                97   0.0  0.0  4379552   7868   ??  Ss   二09下午   0:20.49 /System/Library/CoreServices/launchservicesd
+root               364   0.0  0.0  4454848   7864   ??  Ss   二09下午   0:11.39 /usr/sbin/spindump
+Metasekoia         409   0.0  0.0  4385988   7732   ??  S    二09下午   0:02.05 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.assistantd USER=Metasekoia XPC_FLAGS=0x19 DEFAULT_NETWORK_PRIVACY_LEVEL=public
+root                66   0.0  0.0  4457232   7496   ??  Ss   二09下午   1:13.97 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+Metasekoia         581   0.0  0.0  4409956   7452   ??  S    二09下午   0:00.97 /System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/Frameworks/CloudPhotosConfigurationXPC.framework/Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.CloudPhotosConfiguration USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         349   0.0  0.0  4380144   7428   ??  S    二09下午   0:02.44 /usr/libexec/secinitd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.secinitd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia        3520   0.0  0.0  4539816   7408   ??  Ss   三12下午   0:00.65 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Frameworks/PhotoLibraryServices.framework/Versions/A/XPCServices/com.apple.photomodel.xpc/Contents/MacOS/com.apple.photomodel TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.photomodel USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         384   0.0  0.0  4399492   7032   ??  S    二09下午   0:04.24 /System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.CoreLocationAgent USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         307   0.0  0.0  4379668   7004   ??  S    二09下午   0:20.44 /usr/libexec/UserEventAgent (Aqua) TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.UserEventAgent-Aqua USER=Metasekoia XPC_FLAGS=0x9
+Metasekoia         311   0.0  0.0  4395036   6984   ??  S    二09下午   0:10.70 /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter -L TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.CommCenter USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         404   0.0  0.0  4395848   6932   ??  S    二09下午   0:06.88 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.wifi.WiFiAgent USER=Metasekoia XPC_FLAGS=0x9
+_spotlight         561   0.0  0.0  4382320   6780   ??  S    二09下午   0:04.37 /usr/libexec/trustd --agent
+Metasekoia         316   0.0  0.0  4387144   6772   ??  S    二09下午   0:04.15 /usr/libexec/lsd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.lsd USER=Metasekoia XPC_FLAGS=0x9
+_datadetectors   29559   0.0  0.0  4305996   6764   ??  Ss    6:30下午   0:00.03 /usr/libexec/DataDetectorsSourceAccess
+Metasekoia         338   0.0  0.0  4390508   6756   ??  S    二09下午   0:04.97 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.telephonyutilities.callservicesd USER=Metasekoia NSRunningFromLaunchd=1 XPC_FLAGS=0x19
+Metasekoia         361   0.0  0.0  4353524   6756   ??  S    二09下午   0:00.52 /System/Library/Frameworks/Security.framework/Versions/A/Resources/CloudKeychainProxy.bundle/Contents/MacOS/CloudKeychainProxy TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia DEBUGSCOPE=all SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin WAIT4DEBUGGER=NO XPC_SERVICE_NAME=com.apple.security.cloudkeychainproxy3 USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         315   0.0  0.0  4378148   6584   ??  S    二09下午   0:06.98 /usr/libexec/rapportd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.rapportd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         344   0.0  0.0  4379548   6584   ??  S    二09下午   0:02.71 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.imagent USER=Metasekoia NSRunningFromLaunchd=1 XPC_FLAGS=0x1
+_usbmuxd         27582   0.0  0.0  4377236   6564   ??  Ss    1:10下午   0:00.05 /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd
+Metasekoia         394   0.0  0.0  4905048   6552   ??  Ss   二09下午   0:06.33 /System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/MacOS/PAH_Extension TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.PressAndHold USER=Metasekoia XPC_FLAGS=0x419
+_coreaudiod        190   0.0  0.0  4359148   6424   ??  Ss   二09下午   0:30.23 /usr/sbin/coreaudiod
+root               231   0.0  0.0  4380100   6256   ??  Ss   二09下午   0:11.70 /usr/libexec/ApplicationFirewall/socketfilterfw
+Metasekoia         995   0.0  0.0  4903056   6212   ??  S    二09下午   0:03.30 /Library/Developer/PrivateFrameworks/CoreSimulator.framework/Versions/A/XPCServices/com.apple.CoreSimulator.CoreSimulatorService.xpc/Contents/MacOS/com.apple.CoreSimulator.CoreSimulatorService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.CoreSimulator.CoreSimulatorService USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         593   0.0  0.0  4429892   6200   ??  Ss   二09下午   0:01.04 /System/Library/Frameworks/MediaLibrary.framework/Versions/A/XPCServices/com.apple.MediaLibraryService.xpc/Contents/MacOS/com.apple.MediaLibraryService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.MediaLibraryService USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         424   0.0  0.0  4384684   6200   ??  S    二09下午   0:03.87 /usr/libexec/knowledge-agent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.knowledge-agent USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia       26922   0.0  0.0  4377888   5996   ??  Ss   10:20下午   0:00.47 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.imfoundation.IMRemoteURLConnectionAgent USER=Metasekoia XPC_FLAGS=0x19
+root               148   0.0  0.0  4380624   5980   ??  Ss   二09下午   0:11.09 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/authd.xpc/Contents/MacOS/authd
+root               116   0.5  0.0  4336688   5968   ??  Ss   二09下午   6:23.19 /Applications/EasyConnect.app/Contents/Resources/bin/EasyMonitor
+Metasekoia         330   0.0  0.0  4378788   5952   ??  S    二09下午   0:14.14 /usr/libexec/pkd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.pluginkit.pkd USER=Metasekoia XPC_FLAGS=0x19
+root             29749   0.0  0.0  4324120   5912 s000  Ss    6:43下午   0:00.03 login -fp Metasekoia TERM_SESSION_ID=w0t0p0:17673B77-5EBB-4381-A3D4-1958F56CB080 SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LC_TERMINAL_VERSION=3.4.4 Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render COLORFGBG=0;15 ITERM_PROFILE=Default XPC_FLAGS=0x0 LANG=zh_CN.UTF-8 PWD=/Users/Metasekoia SHELL=/bin/zsh TERM_PROGRAM_VERSION=3.4.4 TERM_PROGRAM=iTerm.app PATH=/usr/bin:/bin:/usr/sbin:/sbin LC_TERMINAL=iTerm2 COLORTERM=truecolor TERM=xterm-256color HOME=/Users/Metasekoia TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ USER=Metasekoia XPC_SERVICE_NAME=com.googlecode.iterm2.47968 LOGNAME=Metasekoia ITERM_SESSION_ID=w0t0p0:17673B77-5EBB-4381-A3D4-1958F56CB080 __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34
+Mvii              3133   0.0  0.0  4381776   5860   ??  S    三12下午   0:03.81 /usr/libexec/trustd --agent
+Metasekoia         570   0.0  0.0  4427560   5840   ??  S    二09下午   0:05.24 /System/Library/CoreServices/cloudphotosd.app/Contents/MacOS/cloudphotosd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.cloudphotosd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia        2153   0.0  0.0  4381640   5612   ??  S    二11下午   0:01.44 /usr/libexec/avconferenced TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.videoconference.camera USER=Metasekoia XPC_FLAGS=0x1
+_hidd              120   0.3  0.0  4380352   5596   ??  Ss   二09下午   8:33.03 /usr/libexec/hidd
+root               100   0.0  0.0  4380860   5552   ??  Ss   二09下午   0:08.77 /usr/sbin/securityd -i
+Metasekoia       29771   0.0  0.0  4351260   5540   ??  Ss    6:43下午   0:00.07 /Applications/iTerm.app/Contents/XPCServices/pidinfo.xpc/Contents/MacOS/pidinfo TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.iterm2.pidinfo USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia        8969   0.0  0.0  4400796   5500   ??  S    三05下午   0:02.36 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeuid.app/Contents/MacOS/storeuid TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.storeuid USER=Metasekoia XPC_FLAGS=0x9
+root               108   0.0  0.0  4382748   5464   ??  Ss   二09下午   0:18.17 /usr/libexec/dasd
+root               209   0.0  0.0  4382036   5444   ??  Ss   二09下午   0:01.99 /usr/libexec/lsd runAsRoot
+Metasekoia       29750   1.3  0.0  4334488   5320 s000  S     6:43下午   0:02.28 -zsh TERM_SESSION_ID=w0t0p0:17673B77-5EBB-4381-A3D4-1958F56CB080 SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LC_TERMINAL_VERSION=3.4.4 Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render COLORFGBG=0;15 ITERM_PROFILE=Default XPC_FLAGS=0x0 LANG=zh_CN.UTF-8 PWD=/Users/Metasekoia SHELL=/bin/zsh TERM_PROGRAM_VERSION=3.4.4 TERM_PROGRAM=iTerm.app PATH=/usr/bin:/bin:/usr/sbin:/sbin LC_TERMINAL=iTerm2 COLORTERM=truecolor TERM=xterm-256color HOME=/Users/Metasekoia TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ USER=Metasekoia XPC_SERVICE_NAME=0 LOGNAME=Metasekoia ITERM_SESSION_ID=w0t0p0:17673B77-5EBB-4381-A3D4-1958F56CB080 __CF_USER_TEXT_ENCODING=0x0:25:52
+Metasekoia         612   0.0  0.0  4518380   5268   ??  S    二09下午   0:14.84 /System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariBookmarksSyncAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.SafariBookmarksSyncAgent USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         515   0.0  0.0  4397892   5216   ??  S    二09下午   0:03.74 /System/Library/PrivateFrameworks/CommerceKit.framework/Resources/LaterAgent.app/Contents/MacOS/LaterAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.lateragent USER=Metasekoia XPC_FLAGS=0x9
+Metasekoia         484   0.0  0.0  4382588   5180   ??  Ss   二09下午   0:01.94 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.imfoundation.IMRemoteURLConnectionAgent USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         427   0.0  0.0  4378176   5092   ??  S    二09下午   0:02.80 /System/Library/CoreServices/diagnostics_agent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.diagnostics_agent USER=Metasekoia XPC_FLAGS=0x1
+root               497   0.0  0.0  4383252   5084   ??  Ss   二09下午   0:00.28 /System/Library/CoreServices/Software Update.app/Contents/Resources/suhelperd
+_appleevents        71   0.0  0.0  4380636   5060   ??  Ss   二09下午   0:01.12 /System/Library/CoreServices/appleeventsd --server
+Metasekoia         483   0.0  0.0  4377900   5044   ??  Ss   二09下午   0:01.00 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.imfoundation.IMRemoteURLConnectionAgent USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia       29748   0.0  0.0  4298032   5000   ??  S     6:43下午   0:00.01 /Users/Metasekoia/Library/Application Support/iTerm2/iTermServer-3.4.4 /Users/Metasekoia/Library/Application Support/iTerm2/iterm2-daemon-1.socket
+Metasekoia         325   0.1  0.0  4379016   4980   ??  S    二09下午   0:08.98 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.ViewBridgeAuxiliary USER=Metasekoia XPC_FLAGS=0x19
+root                75   0.0  0.0  4377036   4892   ??  Ss   二09下午   0:32.23 /System/Library/CoreServices/powerd.bundle/powerd
+Metasekoia         482   0.0  0.0  4377840   4868   ??  Ss   二09下午   0:01.11 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.imfoundation.IMRemoteURLConnectionAgent USER=Metasekoia XPC_FLAGS=0x19
+_locationd         339   0.0  0.0  4392128   4788   ??  S    二09下午   0:03.80 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+root               123   0.0  0.0  4378060   4784   ??  Ss   二09下午   0:02.69 /usr/libexec/AirPlayXPCHelper
+Metasekoia         373   0.0  0.0  4382476   4748   ??  S    二09下午   0:01.09 /System/Library/PrivateFrameworks/MessagesKit.framework/Resources/soagent.app/Contents/MacOS/soagent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.soagent USER=Metasekoia NSRunningFromLaunchd=1 XPC_FLAGS=0x19
+_softwareupdate   3145   0.0  0.0  4378032   4740   ??  Ss   三12下午   0:00.29 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdate_download_service
+Metasekoia         327   0.0  0.0  4380120   4720   ??  S    二09下午   0:01.38 /System/Library/CoreServices/sharedfilelistd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.coreservices.sharedfilelistd USER=Metasekoia XPC_FLAGS=0x1
+Metasekoia         983   0.0  0.0  4409484   4672   ??  S    二09下午   0:00.55 /System/Library/StagedFrameworks/Safari/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.History.xpc/Contents/MacOS/com.apple.Safari.History TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.Safari.History USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         596   0.0  0.0  4382212   4672   ??  S    二09下午   0:01.10 /System/Library/CoreServices/ScopedBookmarkAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.scopedbookmarksagent.xpc USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         988   0.0  0.0  4389584   4656   ??  S    二09下午   0:02.42 /System/Library/PrivateFrameworks/PassKitCore.framework/passd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.passd USER=Metasekoia XPC_FLAGS=0x9
+root               520   0.0  0.0  4383544   4620   ??  Ss   二09下午   0:01.26 /System/Library/CoreServices/iconservicesagent runAsRoot
+_analyticsd        351   0.0  0.0  4378592   4592   ??  Ss   二09下午   0:02.70 /System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd
+Metasekoia         430   0.0  0.0  4395020   4564   ??  S    二09下午   0:04.51 /System/Library/CoreServices/Menu Extras/TextInput.menu/Contents/SharedSupport/TISwitcher.app/Contents/MacOS/TISwitcher TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.tiswitcher USER=Metasekoia XPC_FLAGS=0x1
+Metasekoia         423   0.0  0.0  4901964   4560   ??  S    二09下午   0:04.47 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.AirPlayUIAgent USER=Metasekoia XPC_FLAGS=0x9
+root                61   0.0  0.0  4379304   4552   ??  Ss   二09下午   0:04.33 /usr/libexec/UserEventAgent (System)
+root               167   0.0  0.0  4422000   4496   ??  Ss   二09下午   0:10.50 /System/Library/CoreServices/coreservicesd
+Metasekoia         377   0.0  0.0  4377544   4444   ??  Ss   二09下午   0:06.65 /System/Library/PrivateFrameworks/CoreWLANKit.framework/Versions/A/XPCServices/WiFiProxy.xpc/Contents/MacOS/WiFiProxy TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.WiFiProxy USER=Metasekoia XPC_FLAGS=0x19
+root               214   0.0  0.0  4353260   4316   ??  Ss   二09下午   0:01.02 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/com.apple.CodeSigningHelper.xpc/Contents/MacOS/com.apple.CodeSigningHelper
+Metasekoia         997   0.0  0.0  4902012   4288   ??  S    二09下午   0:03.33 /Library/Developer/PrivateFrameworks/CoreSimulator.framework/Versions/A/XPCServices/SimulatorTrampoline.xpc/Contents/MacOS/SimulatorTrampoline TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.CoreSimulator.SimulatorTrampoline USER=Metasekoia XPC_FLAGS=0x19
+_fpsd              402   0.0  0.0  4354012   4088   ??  Ss   二09下午   0:00.61 /System/Library/PrivateFrameworks/CoreADI.framework/adid
+Metasekoia       10630   0.0  0.0  4382792   4024   ??  S    三11下午   0:00.57 /System/Library/PrivateFrameworks/ContactsDonation.framework/Versions/A/Support/contactsdonationagent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.contacts.donation-agent USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         597   0.0  0.0  4408556   4008   ??  Ss   二09下午   0:01.57 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Frameworks/PhotoLibraryServices.framework/Versions/A/XPCServices/com.apple.photomoments.xpc/Contents/MacOS/com.apple.photomoments TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.photomoments USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         309   0.0  0.0  4350956   4000   ??  S    二09下午   0:18.09 /usr/sbin/distnoted agent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.distnoted.xpc.agent USER=Metasekoia XPC_FLAGS=0x9
+_mdnsresponder     210   0.0  0.0  4380276   3956   ??  Ss   二09下午   0:27.84 /usr/sbin/mDNSResponder
+root               118   0.0  0.0  4381140   3940   ??  Ss   二09下午   0:33.31 /usr/sbin/bluetoothd
+root               370   0.0  0.0  4355396   3868   ??  Ss   二09下午   0:00.57 /usr/sbin/filecoordinationd
+_atsserver        3123   0.0  0.0  4378588   3864   ??  Ss   三12下午   0:00.46 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+root               136   0.0  0.0  4350428   3820   ??  Ss   二09下午   0:18.57 /usr/sbin/cfprefsd daemon
+Metasekoia         312   0.0  0.0  4399624   3808   ??  S    二09下午   0:04.17 /System/Library/CoreServices/talagent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.talagent USER=Metasekoia NSRunningFromLaunchd=1 XPC_FLAGS=0x19
+Metasekoia        6072   0.0  0.0  4378144   3808   ??  S    三02下午   0:00.43 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/XPCServices/com.apple.DictionaryServiceHelper.xpc/Contents/MacOS/com.apple.DictionaryServiceHelper TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.DictionaryServiceHelper USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         492   0.0  0.0  4382852   3808   ??  S    二09下午   0:01.83 /System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -a TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.AssetCacheLocatorService USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         390   0.0  0.0  4380232   3796   ??  S    二09下午   0:02.98 /System/Library/Frameworks/InputMethodKit.framework/Resources/imklaunchagent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.imklaunchagent USER=Metasekoia XPC_FLAGS=0x9
+Metasekoia         568   0.0  0.0  4380116   3748   ??  S    二09下午   0:00.92 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.cache_delete USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia        3937   0.0  0.0  4377264   3744   ??  S    三12下午   0:00.59 /System/Library/PrivateFrameworks/IMDPersistence.framework/IMAutomaticHistoryDeletionAgent.app/Contents/MacOS/IMAutomaticHistoryDeletionAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.imautomatichistorydeletionagent USER=Metasekoia XPC_FLAGS=0x1
+root               114   0.0  0.0  4389932   3728   ??  Ss   二09下午   0:01.04 /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond
+Metasekoia         365   0.0  0.0  4378576   3724   ??  S    二09下午   0:08.48 /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.coreservices.useractivityd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia        1119   0.0  0.0  4378828   3584   ??  S    二09下午   0:00.36 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.audio.AudioComponentRegistrar USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         420   0.0  0.0  4378272   3560   ??  S    二09下午   0:00.78 /System/Library/Image Capture/Support/icdd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.icdd USER=Metasekoia XPC_FLAGS=0x1
+Metasekoia         381   0.0  0.0  4351560   3504   ??  S    二09下午   0:00.40 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.storeaccountd USER=Metasekoia XPC_FLAGS=0x9
+root                90   0.0  0.0  4350756   3452   ??  Ss   二09下午   0:00.80 /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd-helper -launchd
+Metasekoia         350   0.0  0.0  4377568   3452   ??  S    二09下午   0:01.78 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.bird USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         400   0.0  0.0  4377376   3396   ??  S    二09下午   0:02.40 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.fileprovider.fileproviderd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         951   0.0  0.0  4381248   3352   ??  S    二09下午   0:01.68 /usr/libexec/keyboardservicesd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.keyboardservicesd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         476   0.0  0.0  4377760   3324   ??  S    二09下午   0:00.62 /System/Library/CoreServices/pbs TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.pbs USER=Metasekoia NSRunningFromLaunchd=1 XPC_FLAGS=0x1
+_locationd         386   0.0  0.0  4381344   3268   ??  S    二09下午   0:01.65 /usr/libexec/trustd --agent
+root              3163   0.0  0.0  4383848   3220   ??  Ss   三12下午   0:01.23 /usr/libexec/rtcreportingd
+root                87   0.0  0.0  4376460   3060   ??  Ss   二09下午   0:02.69 /usr/libexec/diskarbitrationd
+_iconservices       86   0.0  0.0  4382588   2844   ??  Ss   二09下午   0:00.88 /System/Library/CoreServices/iconservicesd
+_timed              98   0.0  0.0  4376880   2780   ??  Ss   二09下午   0:03.60 /usr/libexec/timed
+root               324   0.0  0.0  4381484   2748   ??  Ss   二09下午   0:00.64 /usr/sbin/systemsoundserverd
+root               396   0.0  0.0  4380920   2744   ??  Ss   二09下午   0:01.92 /usr/libexec/findmydeviced
+Metasekoia         305   0.0  0.0  4376724   2724   ??  S    二09下午   0:00.54 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.CoreAuthentication.agent USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         419   0.0  0.0  4377792   2712   ??  S    二09下午   0:00.70 /usr/libexec/dmd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.dmd USER=Metasekoia XPC_FLAGS=0x19
+root               122   0.0  0.0  4381256   2704   ??  Ss   二09下午   0:05.87 /usr/libexec/corebrightnessd --launchd
+Metasekoia         425   0.0  0.0  4378304   2660   ??  S    二09下午   0:09.38 /System/Library/CoreServices/cloudpaird TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.cloudpaird USER=Metasekoia XPC_FLAGS=0x9
+root               175   0.0  0.0  4382440   2608   ??  Ss   二09下午   0:00.70 /usr/libexec/nehelper
+root               367   0.0  0.0  4377128   2548   ??  Ss   二09下午   0:00.32 /System/Library/CoreServices/SubmitDiagInfo server-init
+Metasekoia         495   0.0  0.0  4351004   2540   ??  S    二09下午   0:00.24 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdate_notify_agent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.softwareupdate_notify_agent USER=Metasekoia XPC_FLAGS=0x19
+Mvii              3130   0.0  0.0  4381052   2480   ??  S    三12下午   0:00.29 /usr/libexec/lsd
+Metasekoia        3533   0.0  0.0  4352616   2468   ??  Ss   三12下午   0:00.40 /System/Library/Frameworks/iTunesLibrary.framework/Versions/A/XPCServices/com.apple.iTunesLibraryService.xpc/Contents/MacOS/com.apple.iTunesLibraryService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.iTunesLibraryService USER=Metasekoia XPC_FLAGS=0x19
+root               485   0.0  0.0  4379812   2432   ??  Ss   二09下午   0:09.20 /System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/XPCServices/com.apple.AmbientDisplayAgent.xpc/Contents/MacOS/com.apple.AmbientDisplayAgent
+Metasekoia         345   0.0  0.0  4351400   2380   ??  S    二09下午   0:00.61 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.imdpersistence.IMDPersistenceAgent USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia        3926   0.0  0.0  4350040   2300   ??  S    三12下午   0:00.21 /System/Library/CoreServices/EscrowSecurityAlert.app/Contents/MacOS/EscrowSecurityAlert TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.EscrowSecurityAlert USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia        3521   0.0  0.0  4351020   2272   ??  S    三12下午   0:00.17 /usr/libexec/silhouette TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.coreparsec.silhouette USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         399   0.0  0.0  4377228   2240   ??  S    二09下午   0:00.55 /System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Helpers/ProtectedCloudKeySyncing TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.protectedcloudstorage.protectedcloudkeysyncing USER=Metasekoia XPC_FLAGS=0x19
+root               343   0.0  0.0  4377812   2212   ??  Ss   二09下午   0:08.44 /usr/sbin/wirelessproxd
+root               303   0.0  0.0  4350172   2204   ??  Ss   二09下午   0:00.34 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+root               337   0.0  0.0  4377696   2184   ??  Ss   二09下午   0:01.41 /usr/sbin/WirelessRadioManagerd
+Metasekoia       24920   0.0  0.0  4376884   2148   ??  S    日12下午   0:00.31 /System/Library/PrivateFrameworks/WeatherFoundation.framework/Versions/A/XPCServices/WeatherService.xpc/Contents/MacOS/WeatherService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.WeatherService USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         575   0.0  0.0  4379828   2100   ??  S    二09下午   0:00.29 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.storedownloadd USER=Metasekoia XPC_FLAGS=0x9
+_captiveagent      478   0.0  0.0  4352040   2088   ??  Ss   二09下午   0:01.82 /usr/libexec/captiveagent
+Metasekoia         408   0.0  0.0  4382940   2088   ??  S    二09下午   0:00.51 /usr/libexec/swcd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.swcd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         322   0.0  0.0  4350816   2044   ??  S    二09下午   0:03.31 /usr/libexec/pboard TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.pboard USER=Metasekoia XPC_FLAGS=0x9
+Metasekoia         371   0.0  0.0  4386436   2040   ??  S    二09下午   0:00.95 /usr/libexec/fmfd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.icloud.fmfd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         346   0.0  0.0  4349888   2024   ??  S    二09下午   0:00.65 /System/Library/Frameworks/AddressBook.framework/Executables/ContactsAccountsService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.AddressBook.ContactsAccountsService USER=Metasekoia NSRunningFromLaunchd=1 XPC_FLAGS=0x19
+root               212   0.0  0.0  4377592   2004   ??  Ss   二09下午   0:01.11 /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Support/awdd
+root               664   0.0  0.0  4382764   2004   ??  Ss   二09下午   0:00.42 /usr/libexec/dprivacyd
+Metasekoia         398   0.0  0.0  4349732   1908   ??  S    二09下午   0:00.23 /System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/Resources/cdpd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.cdpd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         360   0.0  0.0  4351120   1852   ??  S    二09下午   0:00.21 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.CryptoTokenKit.ahp.agent USER=Metasekoia XPC_FLAGS=0x19
+root               254   0.0  0.0  4351664   1800   ??  Ss   二09下午   0:00.22 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar -daemon
+Metasekoia         660   0.0  0.0  4412340   1756   ??  S    二09下午   0:04.13 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/atsd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.atsd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         887   0.0  0.0  4350332   1748   ??  S    二09下午   0:05.02 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.hiservices-xpcservice USER=Metasekoia XPC_FLAGS=0x19
+root               574   0.0  0.0  4378376   1732   ??  Ss   二09下午   0:00.27 /usr/bin/sysdiagnose
+_cmiodalassistants   229   0.0  0.0  4381208   1684   ??  Ss   二09下午   0:00.40 /System/Library/Frameworks/CoreMediaIO.framework/Resources/VDC.plugin/Contents/Resources/VDCAssistant
+_nsurlstoraged     363   0.0  0.0  4350376   1680   ??  Ss   二09下午   0:00.33 /usr/libexec/nsurlstoraged --privileged
+Metasekoia         355   0.0  0.0  4380880   1668   ??  S    二09下午   0:00.74 /usr/libexec/networkserviceproxy TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.networkserviceproxy USER=Metasekoia XPC_FLAGS=0x19
+_assetcache        493   0.0  0.0  4380196   1660   ??  Ss   二09下午   0:00.38 /usr/libexec/AssetCache/AssetCache
+root               295   0.0  0.0  4351948   1644   ??  Ss   二09下午   0:05.01 /System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/XPCServices/com.apple.PerformanceAnalysis.animationperfd.xpc/Contents/MacOS/com.apple.PerformanceAnalysis.animationperfd
+root               124   0.0  0.0  4317168   1644   ??  Ss   二09下午   0:26.43 /usr/sbin/notifyd
+Metasekoia         573   0.0  0.0  4376612   1620   ??  S    二09下午   0:00.22 /System/Library/PrivateFrameworks/QuickLookThumbnailing.framework/Support/com.apple.quicklook.ThumbnailsAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.quicklook.ThumbnailsAgent USER=Metasekoia XPC_FLAGS=0x19
+root               516   0.0  0.0  4378416   1592   ??  S    二09下午   0:00.66 /usr/sbin/systemstats --logger-helper /private/var/db/systemstats
+root               406   0.1  0.0  4378668   1540   ??  S    二09下午   0:04.35 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+Metasekoia       29962   0.0  0.0  4290400   1516 s001  Ss+   6:44下午   0:00.01 /bin/bash -l TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/Applications/Wireshark.app/Contents/MacOS:/Users/Metasekoia/apache-maven-3.6.3/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin LOGNAME=Metasekoia XPC_SERVICE_NAME=com.microsoft.VSCode.55580 USER=Metasekoia XPC_FLAGS=0x0 ORIGINAL_XDG_CURRENT_DESKTOP=undefined SHLVL=0 PWD=/Users/Metasekoia/Desktop/大三下/网络入侵检测与数字取证 OLDPWD=/ HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles/bottles HOMEBREW_PREFIX=/usr/local HOMEBREW_CELLAR=/usr/local/Cellar HOMEBREW_REPOSITORY=/usr/local/Homebrew MANPATH=/usr/local/share/man:: INFOPATH=/usr/local/share/info: MAVEN_HOME=/Users/Metasekoia/apache-maven-3.6.3/bin PYTHON3=/Library/Frameworks/Python.framework/Versions/3.8/bin CLICOLOR=1 LSCOLORS=Gxfxcxdxbxegedabagacad ZSH=/Users/Metasekoia/.oh-my-zsh PAGER=less LESS=-R _=/Applications/Visual Studio Code.app/Contents/MacOS/Electron TERM_PROGRAM=vscode TERM_PROGRAM_VERSION=1.67.1 LANG=zh_CN.UTF-8 COLORTERM=truecolor VSCODE_GIT_IPC_HANDLE=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/vscode-git-986bd7b313.sock VSCODE_GIT_ASKPASS_NODE=/Applications/Visual Studio Code.app/Contents/MacOS/Electron VSCODE_GIT_ASKPASS_EXTRA_ARGS=--ms-enable-electron-run-as-node VSCODE_GIT_ASKPASS_MAIN=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js GIT_ASKPASS=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh TERM=xterm-256color
+root               571   0.0  0.0  4350340   1512   ??  Ss   二09下午   0:00.19 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/installd
+Metasekoia         519   0.0  0.0  4380576   1496   ??  Ss   二09下午   0:00.28 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/XPCServices/com.apple.CommerceKit.TransactionService.xpc/Contents/MacOS/com.apple.CommerceKit.TransactionService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.CommerceKit.TransactionService USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia        1366   0.0  0.0  4439088   1472   ??  S    二10下午   0:00.54 /System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/XPCServices/ContextService.xpc/Contents/MacOS/ContextService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.siri.context.service USER=Metasekoia XPC_FLAGS=0x19
+root                96   0.0  0.0  4377884   1400   ??  Ss   二09下午   0:00.40 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbstated
+Metasekoia         415   0.0  0.0  4376432   1396   ??  S    二09下午   0:00.37 /System/Library/CoreServices/SocialPushAgent.app/Contents/MacOS/SocialPushAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.SocialPushAgent USER=Metasekoia XPC_FLAGS=0x1
+Metasekoia         383   0.0  0.0  4384432   1356   ??  S    二09下午   0:00.70 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistoryPluginHelper TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.CallHistoryPluginHelper USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         980   0.0  0.0  4350720   1352   ??  S    二09下午   0:00.05 /usr/libexec/loginitemregisterd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.xpc.loginitemregisterd USER=Metasekoia XPC_FLAGS=0x19
+_distnote          126   0.0  0.0  4350956   1352   ??  Ss   二09下午   0:02.35 /usr/sbin/distnoted daemon
+root               509   0.0  0.0  4381200   1320   ??  Ss   二09下午   0:01.33 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+Metasekoia        1118   0.0  0.0  4350292   1320   ??  S    二09下午   0:00.32 /System/Library/Frameworks/MediaAccessibility.framework/Versions/A/XPCServices/com.apple.accessibility.mediaaccessibilityd.xpc/Contents/MacOS/com.apple.accessibility.mediaaccessibilityd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.accessibility.mediaaccessibilityd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         989   0.0  0.0  4515148   1316   ??  S    二09下午   0:00.33 /System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariLaunchAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.SafariLaunchAgent USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         554   0.0  0.0  4378184   1300   ??  S    二09下午   0:00.91 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdwrite TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.metadata.mdwrite USER=Metasekoia XPC_FLAGS=0x9
+root               168   0.0  0.0  4350552   1280   ??  Ss   二09下午   0:00.27 aslmanager
+Metasekoia         998   0.0  0.0  4376624   1276   ??  S    二09下午   0:00.34 /System/Library/PrivateFrameworks/CommunicationsFilter.framework/CMFSyncAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.cmfsyncagent USER=Metasekoia NSRunningFromLaunchd=1 XPC_FLAGS=0x19
+Metasekoia         362   0.0  0.0  4351556   1276   ??  S    二09下午   0:00.19 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -tw TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.ctkd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         481   0.0  0.0  4349696   1256   ??  Ss   二09下午   0:02.79 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.imfoundation.IMRemoteURLConnectionAgent USER=Metasekoia XPC_FLAGS=0x19
+root              4143   0.0  0.0  4333176   1248   ??  Ss   三01下午   0:00.04 /usr/libexec/taskgated
+Metasekoia         522   0.0  0.0  4351028   1216   ??  S    二09下午   0:00.35 /usr/libexec/findmydevice-user-agent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.icloud.findmydeviced.findmydevice-user-agent USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         510   0.0  0.0  4349972   1172   ??  S    二09下午   0:00.09 /System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/Support/followupd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.followupd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         358   0.0  0.0  4377888   1124   ??  S    二09下午   0:00.46 /System/Library/CoreServices/backgroundtaskmanagementagent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.backgroundtaskmanagementagent USER=Metasekoia XPC_FLAGS=0x1
+root               289   0.0  0.0  4350212   1120   ??  Ss   二09下午   0:00.11 /System/Library/PrivateFrameworks/AccountPolicy.framework/XPCServices/com.apple.AccountPolicyHelper.xpc/Contents/MacOS/com.apple.AccountPolicyHelper
+Metasekoia         499   0.0  0.0  4377564   1116   ??  S    二09下午   0:00.22 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storelegacy TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.storelegacy USER=Metasekoia XPC_FLAGS=0x9
+_locationd         356   0.0  0.0  4378788   1104   ??  S    二09下午   0:00.43 /usr/libexec/secinitd
+root               479   0.0  0.0  4351416   1096   ??  Ss   二09下午   0:02.16 /System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd
+root               260   0.0  0.0  4376164   1084   ??  Ss   二09下午   0:00.25 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer
+root               113   0.0  0.0  4349848   1084   ??  Ss   二09下午   0:00.27 /System/Library/CoreServices/logind
+_spotlight         686   0.0  0.0  4378512   1076   ??  S    二09下午   0:00.79 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+root               225   0.0  0.0  4349732   1072   ??  Ss   二09下午   0:00.39 /usr/libexec/apfsd
+root             31168   0.0  0.0  4268472   1052 s000  R+    7:12下午   0:00.00 ps auxwwem TERM_SESSION_ID=w0t0p0:17673B77-5EBB-4381-A3D4-1958F56CB080 SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LC_TERMINAL_VERSION=3.4.4 Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render COLORFGBG=0;15 ITERM_PROFILE=Default XPC_FLAGS=0x0 LANG=zh_CN.UTF-8 PWD=/Users/Metasekoia SHELL=/bin/zsh TERM_PROGRAM_VERSION=3.4.4 TERM_PROGRAM=iTerm.app PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/Applications/Wireshark.app/Contents/MacOS:/Users/Metasekoia/apache-maven-3.6.3/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin LC_TERMINAL=iTerm2 COLORTERM=truecolor TERM=xterm-256color HOME=/Users/Metasekoia TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ USER=Metasekoia XPC_SERVICE_NAME=0 LOGNAME=Metasekoia ITERM_SESSION_ID=w0t0p0:17673B77-5EBB-4381-A3D4-1958F56CB080 __CF_USER_TEXT_ENCODING=0x0:25:52 SHLVL=1 OLDPWD=/Users/Metasekoia HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles/bottles HOMEBREW_PREFIX=/usr/local HOMEBREW_CELLAR=/usr/local/Cellar HOMEBREW_REPOSITORY=/usr/local/Homebrew MANPATH=/usr/local/share/man:: INFOPATH=/usr/local/share/info: MAVEN_HOME=/Users/Metasekoia/apache-maven-3.6.3/bin PYTHON3=/Library/Frameworks/Python.framework/Versions/3.8/bin CLICOLOR=1 LSCOLORS=Gxfxcxdxbxegedabagacad ZSH=/Users/Metasekoia/.oh-my-zsh PAGER=less LESS=-R _=/bin/ps
+root               513   0.0  0.0  4377748   1048   ??  Ss   二09下午   0:00.58 /usr/libexec/dmd
+root               259   0.0  0.0  4378708   1028   ??  Ss   二09下午   0:00.40 /usr/libexec/secinitd
+Metasekoia         685   0.0  0.0  4378528   1024   ??  S    二09下午   0:01.66 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin MallocCorruptionAbort=1 XPC_SERVICE_NAME=com.apple.mdworker.sizing USER=Metasekoia XPC_FLAGS=0x9
+root               514   0.0  0.0  4350432   1020   ??  Ss   二09下午   1:39.62 /usr/libexec/sysmond
+_coreaudiod        196   0.0  0.0  4377092   1016   ??  Ss   二09下午   0:00.42 /System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.DriverHelper.xpc/Contents/MacOS/com.apple.audio.DriverHelper
+_displaypolicyd    106   0.0  0.0  4352920   1004   ??  Ss   二09下午   0:00.56 /usr/libexec/displaypolicyd -k 1
+root               357   0.0  0.0  4351000    992   ??  Ss   二09下午   0:00.07 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp -d
+root               228   0.0  0.0  4377512    984   ??  Ss   二09下午   0:04.51 /usr/libexec/usbd
+Metasekoia         683   0.0  0.0  4377560    944   ??  S    二09下午   0:00.35 /System/Library/PrivateFrameworks/UsageTracking.framework/Versions/A/UsageTrackingAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.UsageTrackingAgent USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         403   0.0  0.0  4379956    944   ??  S    二09下午   0:00.34 /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.familycircled USER=Metasekoia XPC_FLAGS=0x9
+root              1045   0.0  0.0  4334680    936   ??  Ss   二09下午   0:00.08 /usr/libexec/mobileactivationd
+root               213   0.0  0.0  4377476    928   ??  Ss   二09下午   0:03.82 /usr/sbin/mDNSResponderHelper
+Metasekoia        5032   0.0  0.0  4377020    908   ??  S    三01下午   0:00.25 /usr/libexec/videosubscriptionsd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.videosubscriptionsd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         433   0.0  0.0  4377636    904   ??  S    二09下午   0:00.27 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra.menu/Contents/XPCServices/SafeEjectGPUService.xpc/Contents/MacOS/SafeEjectGPUService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.SafeEjectGPUService USER=Metasekoia XPC_FLAGS=0x19
+root                60   0.0  0.0  4350876    896   ??  Ss   二09下午   0:05.08 /usr/sbin/syslogd
+Mvii              3129   0.0  0.0  4350180    888   ??  S    三12下午   0:00.37 /usr/sbin/cfprefsd agent
+_applepay          500   0.0  0.0  4377628    832   ??  Ss   二09下午   0:00.31 /usr/libexec/nfcd
+root               671   0.0  0.0  4349804    832   ??  Ss   二09下午   0:00.18 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeinstalld
+Metasekoia        1106   0.0  0.0  4350920    812   ??  S    二09下午   0:00.19 /usr/libexec/spindump_agent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.spindump_agent USER=Metasekoia XPC_FLAGS=0x19
+root             29540   0.0  0.0  4298936    800   ??  SNs   6:30下午   0:00.01 /usr/libexec/periodic-wrapper weekly
+Metasekoia       10268   0.0  0.0  4333960    784   ??  S    三06下午   0:00.15 /System/Library/Frameworks/ColorSync.framework/Support/colorsync.useragent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.colorsync.useragent USER=Metasekoia XPC_FLAGS=0x19
+_spotlight         553   0.0  0.0  4350956    752   ??  S    二09下午   0:00.29 /usr/sbin/distnoted agent
+Metasekoia         525   0.0  0.0  4404000    736   ??  S    二09下午   0:02.47 /System/Library/CoreServices/ReportCrash agent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.ReportCrash USER=Metasekoia XPC_FLAGS=0x19
+_cmiodalassistants   518   0.0  0.0  4310312    732   ??  Ss   二09下午   0:00.97 /Library/CoreMediaIO/Plug-Ins/DAL/AppleCamera.plugin/Contents/Resources/AppleCameraAssistant
+Metasekoia         490   0.0  0.0  4350624    724   ??  S    二09下午   0:00.34 /usr/libexec/SidecarRelay TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.sidecar-relay USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia        3514   0.0  0.0  4350456    656   ??  S    三12下午   0:00.15 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Versions/A/printtool agent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.printtool.agent USER=Metasekoia XPC_FLAGS=0x19
+root               517   0.0  0.0  4350280    652   ??  Ss   二09下午   0:00.15 /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/XPCServices/com.apple.cmio.registerassistantservice.xpc/Contents/MacOS/com.apple.cmio.registerassistantservice
+Metasekoia         562   0.0  0.0  4351368    648   ??  S    二09下午   0:00.14 /usr/libexec/USBAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.USBAgent USER=Metasekoia XPC_FLAGS=0x9
+Mvii              3147   0.0  0.0  4350956    636   ??  S    三12下午   0:00.18 /usr/sbin/distnoted agent
+Metasekoia       10060   0.0  0.0  4350280    632   ??  S    三06下午   0:00.13 /System/Library/PrivateFrameworks/ToneLibrary.framework/Versions/A/XPCServices/com.apple.tonelibraryd.xpc/Contents/MacOS/com.apple.tonelibraryd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.tonelibraryd USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia        5030   0.0  0.0  4514628    604   ??  S    三01下午   0:00.29 /System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariNotificationAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.SafariNotificationAgent USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia         354   0.0  0.0  4350316    600   ??  S    二09下午   0:00.17 /System/Library/CoreServices/APFSUserAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.apfsuseragent USER=Metasekoia XPC_FLAGS=0x19
+Metasekoia        8988   0.0  0.0  4505272    592   ??  Ss   三05下午   0:00.20 /System/Library/Frameworks/SafariServices.framework/Versions/A/XPCServices/com.apple.SafariServices.xpc/Contents/MacOS/com.apple.SafariServices TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.SafariServices USER=Metasekoia XPC_FLAGS=0x19
+_locationd         385   0.0  0.0  4350176    576   ??  S    二09下午   0:00.60 /usr/sbin/cfprefsd agent
+Metasekoia       13728   0.0  0.0  4336056    576   ??  S    四04下午   0:00.19 /System/Library/PrivateFrameworks/PrintingPrivate.framework/Versions/A/PrintUITool TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.printuitool.agent USER=Metasekoia XPC_FLAGS=0x19
+root               261   0.0  0.0  4349780    568   ??  Ss   二09下午   0:00.18 /usr/libexec/colorsync.displayservices
+root               224   0.0  0.0  4325200    560   ??  Ss   二09下午   0:00.11 /System/Library/CryptoTokenKit/com.apple.ifdreader.slotd/Contents/MacOS/com.apple.ifdreader
+root               407   0.0  0.0  4350956    548   ??  S    二09下午   0:00.26 /usr/sbin/distnoted agent
+root               529   0.0  0.0  4325784    544   ??  Ss   二09下午   0:00.03 /System/Library/CoreServices/ReportCrash daemon
+root               352   0.0  0.0  4349756    544   ??  Ss   二09下午   0:00.16 /System/Library/CoreServices/CrashReporterSupportHelper server-init
+_locationd         494   0.0  0.0  4350956    520   ??  S    二09下午   0:00.25 /usr/sbin/distnoted agent
+root                64   0.0  0.0  4324820    460   ??  Ss   二09下午   0:02.46 /System/Library/PrivateFrameworks/Uninstall.framework/Resources/uninstalld
+_softwareupdate   3127   0.0  0.0  4350956    436   ??  S    三12下午   0:00.18 /usr/sbin/distnoted agent
+root               253   0.0  0.0  4317920    420   ??  Ss   二09下午   0:00.76 /usr/libexec/watchdogd
+root               304   0.0  0.0  4343196    388   ??  Ss   二09下午   0:00.25 /usr/libexec/securityd_service
+_softwareupdate   3126   0.0  0.0  4341984    380   ??  S    三12下午   0:00.30 /usr/sbin/cfprefsd agent
+root               528   0.0  0.0  4333528    372   ??  Ss   二09下午   0:00.05 /usr/libexec/smd
+root               293   0.0  0.0  4325936    364   ??  Ss   二09下午   0:00.04 /System/Library/Frameworks/GSS.framework/Helpers/GSSCred
+root              3432   0.0  0.0  4309176    344   ??  SNs  三12下午   0:00.01 /usr/libexec/periodic-wrapper daily
+root               115   0.0  0.0  4341716    308   ??  Ss   二09下午   0:00.02 /usr/sbin/KernelEventAgent
+root               255   0.0  0.0  4308772    268   ??  Ss   二09下午   0:00.22 /usr/libexec/thermald
+root               105   0.0  0.0  4332604    204   ??  Ss   二09下午   0:00.02 autofsd
+Metasekoia         422   0.0  0.0  4332644     36   ??  S    二09下午   0:00.55 /Applications/EasyConnect.app/Contents/Resources/bin/ECAgentProxy TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.sangfor.ECAgentProxy USER=Metasekoia XPC_FLAGS=0x1
+root               491   0.0  0.0  4313900      8   ??  Ss   二09下午   0:00.02 /System/Library/PrivateFrameworks/FindMyMac.framework/Resources/FindMyMacd
+Metasekoia       10064   0.0  0.0  4841388      8   ??  Ss   三06下午   0:00.05 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ LaunchInstanceID=5AD15352-1390-4B16-97A6-336EBCB52166 SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.MTLCompilerService USER=Metasekoia MallocNanoZone=1 XPC_FLAGS=0x19
+root                79   0.0  0.0  4341688      8   ??  Ss   二09下午   0:00.02 /usr/libexec/keybagd -t 15
+Metasekoia       10065   0.0  0.0  4839920      8   ??  Ss   三06下午   0:00.06 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ LaunchInstanceID=2E968988-644B-4E09-B829-1D5D60508AAA SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.MTLCompilerService USER=Metasekoia MallocNanoZone=1 XPC_FLAGS=0x19
+_coreaudiod        256   0.0  0.0  4324340      8   ??  Ss   二09下午   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+Metasekoia         413   0.0  0.0  4349904      8   ??  S    二09下午   0:00.04 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.corespeechd USER=Metasekoia XPC_FLAGS=0x9
+Metasekoia       12768   0.0  0.0  4315320      8   ??  S    四01下午   0:00.02 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.security.DiskUnmountWatcher USER=Metasekoia XPC_FLAGS=0x9
+_ctkd              182   0.0  0.0  4351448      8   ??  Ss   二09下午   0:00.03 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -s
+root             21459   0.0  0.0  4333820      8   ??  Ss   六03上午   0:00.01 /usr/sbin/aslmanager -s /var/log/eventmonitor
+root               263   0.0  0.0  4350548      8   ??  Ss   二09下午   0:00.02 /usr/libexec/colorsyncd
+root               272   0.0  0.0  4350608      8   ??  Ss   二09下午   0:00.03 /usr/libexec/bootinstalld
+root               177   0.0  0.0  4350244      8   ??  Ss   二09下午   0:00.02 /System/Library/Frameworks/PCSC.framework/Versions/A/XPCServices/com.apple.ctkpcscd.xpc/Contents/MacOS/com.apple.ctkpcscd
+Metasekoia         432   0.0  0.0  4821272      8   ??  S    二09下午   0:00.01 SafeEjectGPUAgent TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.SafeEjectGPUAgent USER=Metasekoia XPC_FLAGS=0x19
+root              1885   0.0  0.0  4316648      8   ??  Ss   二11下午   0:00.02 /System/Library/PrivateFrameworks/AssetCacheServicesExtensions.framework/XPCServices/AssetCacheManagerService.xpc/Contents/MacOS/AssetCacheManagerService
+Metasekoia         393   0.0  0.0  4341980      8   ??  Ss   二09下午   0:00.02 /System/Library/PrivateFrameworks/login.framework/Versions/A/XPCServices/LoginUserService.xpc/Contents/MacOS/LoginUserService TMPDIR=/var/folders/fr/9y35jn3d6xxf4y0j997pm8y00000gn/T/ SHELL=/bin/zsh HOME=/Users/Metasekoia Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.pAeYkEaRw7/Render SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hqbviALS81/Listeners LOGNAME=Metasekoia PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_SERVICE_NAME=com.apple.LoginUserService USER=Metasekoia XPC_FLAGS=0x19
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
